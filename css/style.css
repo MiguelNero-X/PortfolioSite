@@ -1,0 +1,133 @@
+
+:root {
+    --cor-fundo: #0D0D0D;           
+    --cor-texto-principal: #f0f0f0; 
+    --cor-texto-secundario: #736665;
+    --cor-destaque-1: #8C480D;      
+    --cor-destaque-2: #731616;    
+    --cor-accent: #8C310F;         
+}
+
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto-principal);
+    font-family: 'Montserrat', sans-serif; 
+}
+
+
+h1, h2, h3, h4, h5, h6, .navbar-brand {
+    font-family: 'Bebas Neue', monospace;
+    font-weight: bold;
+    color: var(--cor-destaque-1); 
+    text-transform: uppercase;    
+}
+
+.alert-info {
+    background-color: var(--cor-destaque-1); 
+    border-color: var(--cor-destaque-2); 
+    color: #ffffff !important; 
+    font-family: 'Bebas Neue', monospace;
+}
+
+.alert-info h2 {
+    color: #ffffff !important; 
+}
+
+.navbar {
+    background-color: var(--cor-fundo) !important; 
+    border-bottom: 2px solid var(--cor-destaque-2); 
+}
+
+.nav-link {
+    font-family: 'Bebas Neue', monospace;
+    font-size: 0.9rem;
+}
+
+.nav-link:hover {
+    color: var(--cor-destaque-1) !important; 
+}
+
+
+section {
+    padding: 60px 0;
+}
+
+
+.bg-light {
+    background-color: #1a1a1a !important; 
+    color: var(--cor-texto-principal);
+}
+
+
+.card {
+    background-color: #1a1a1a;
+    border: 1px solid var(--cor-texto-secundario);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);     
+    border-color: var(--cor-destaque-1);
+}
+
+.card-title {
+    color: var(--cor-destaque-1);
+}
+
+.card-text {
+    color: #ccc; 
+}
+
+
+.btn-primary {
+    background-color: var(--cor-accent);
+    border-color: var(--cor-accent);
+    font-family: 'Bebas Neue', monospace;
+}
+
+.btn-primary:hover {
+    background-color: var(--cor-destaque-2); 
+    border-color: var(--cor-destaque-2);
+}
+
+.btn-dark {
+    background-color: var(--cor-destaque-2);
+    border: none;
+}
+
+
+.form-control {
+    background-color: #2b2b2b;
+    border: 1px solid var(--cor-texto-secundario);
+    color: white;
+}
+
+.form-control:focus {
+    background-color: #2b2b2b;
+    color: white;
+    border-color: var(--cor-destaque-1);
+    box-shadow: 0 0 0 0.25rem rgba(140, 72, 13, 0.25);
+}
+
+::placeholder {
+    color: white !important;
+    opacity: 1;
+}
+
+.texto-projeto {
+    color: var(--cor-texto-secundario); 
+}
+
+footer {
+    border-top: 2px solid var(--cor-destaque-2);
+}
+
+footer i {
+    font-size: 1.5rem; 
+    transition: color 0.3s;
+}
+
+footer i:hover {
+    color: var(--cor-destaque-1);
+}

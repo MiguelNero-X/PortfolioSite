@@ -17,21 +17,31 @@
 </head>
 
 <body>
-
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container d-flex justify-content-center align-items-center position-relative" style="gap: 2rem;">
-            <ul class="navbar-nav flex-row align-items-center justify-content-center" style="gap: 1.5rem;">
-                <li class="nav-item"><a class="nav-link" href="#home">Página Inicial</a></li>
-                <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
-            </ul>
-            <a class="navbar-brand d-flex align-items-center justify-content-center mx-3" href="#" style="padding: 0 1.5rem;">
-                <img src="src/assets/logo.png" alt="Logo" style="width: 100px; height: 100px; display: block;">
+        <div class="container-fluid">
+            
+            <a class="navbar-brand" href="#">
+                <img src="src/assets/logo.png" alt="Logo" class="navbar-logo">
             </a>
-            <ul class="navbar-nav flex-row align-items-center justify-content-center" style="gap: 1.5rem;">
-                <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
-            </ul>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-content-wrapper">
+                    <ul class="navbar-nav navbar-nav-left">
+                        <li class="nav-item"><a class="nav-link" href="#home">Página Inicial</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                    </ul>
+                    <div class="navbar-logo-spacer"></div>
+                    <ul class="navbar-nav navbar-nav-right">
+                        <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </nav>
 
@@ -131,20 +141,20 @@
 
     <!-- Sobre -->
     <section id="sobre" class="py-5 bg-light">
-        <div class="container">
+        <div class="container-fluid">
             <h2 class="text-center mb-4" style="margin-top: -10px;">Sobre Mim</h2>
             <div class="row">
                     <div class="col-12 d-flex flex-column align-items-center">               
                         <img src="https://placehold.co/400x400?text=Minha+Foto" class="img-fluid rounded mb-4" alt="Foto de Perfil">
                         <!-- Tabs Navigation -->
-                        <ul class="nav nav-tabs justify-content-center mb-4" id="sobreTabs" role="tablist" style="width: 100vw; max-width: 100vw; font-size: 1.35rem; gap: 2rem;">
-                            <li class="nav-item flex-fill text-center" role="presentation" style="margin: 0 1.5rem;">
+                        <ul class="nav nav-tabs mb-4 w-100" id="sobreTabs" role="tablist" style="font-size: 1.35rem; gap: 0; display: flex;">
+                            <li class="nav-item flex-fill text-center" role="presentation">
                                 <button class="nav-link active w-100 py-3 custom-tab" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#tab1" type="button" role="tab" aria-controls="tab1" aria-selected="true">Sobre Mim</button>
                             </li>
-                            <li class="nav-item flex-fill text-center" role="presentation" style="margin: 0 1.5rem;">
+                            <li class="nav-item flex-fill text-center" role="presentation">
                                 <button class="nav-link w-100 py-3 custom-tab" id="tab2-tab" data-bs-toggle="tab" data-bs-target="#tab2" type="button" role="tab" aria-controls="tab2" aria-selected="false">Experiência Profissional</button>
                             </li>
-                            <li class="nav-item flex-fill text-center" role="presentation" style="margin: 0 1.5rem;">
+                            <li class="nav-item flex-fill text-center" role="presentation">
                                 <button class="nav-link w-100 py-3 custom-tab" id="tab3-tab" data-bs-toggle="tab" data-bs-target="#tab3" type="button" role="tab" aria-controls="tab3" aria-selected="false">Formação Acadêmica</button>
                             </li>
                         </ul>
@@ -317,20 +327,20 @@
          <!-- Cartão 6 -->
                 <div class="col-12 mb-5">
                     <div class="card h-100 text-center">
-                        <img src="src/proj5/05_Proj_KendirStudios_CliqueFinanceiro_INT_Bank_Rendered.jpg" class="card-img-top" style="height: 700px; object-fit: cover; cursor: pointer;" alt="..." data-bs-toggle="collapse" data-bs-target="#collapseProj5" aria-expanded="false" aria-controls="collapseProj5">
+                        <img src="https://placehold.co/1200x700?text=Projeto+6" class="card-img-top" style="height: 700px; object-fit: cover; cursor: pointer;" alt="..." data-bs-toggle="collapse" data-bs-target="#collapseProj6" aria-expanded="false" aria-controls="collapseProj6">
                         <div class="card-body">
-                            <h5 class="card-title">Nome do Projeto 5</h5>
-                            <div class="collapse" id="collapseProj5">
-                                <p class="card-text">Estudo de luz e texturas.</p>
+                            <h5 class="card-title">Nome do Projeto 6</h5>
+                            <div class="collapse" id="collapseProj6">
+                                <p class="card-text">Descrição placeholder do projeto 6.</p>
                                 <div class="row mt-3">
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/proj5/05_Proj_KendirStudios_CliqueFinanceiro_INT_Library_Rendered.jpg" class="img-fluid mb-2" alt="Miniatura 1" data-bs-toggle="modal" data-bs-target="#modalProj5Img1" style="cursor:pointer;">
+                                        <img src="https://placehold.co/400x300?text=Imagem+1" class="img-fluid mb-2" alt="Miniatura 1" data-bs-toggle="modal" data-bs-target="#modalProj6Img1" style="cursor:pointer;">
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/proj5/05_Proj_KendirStudios_CliqueFinanceiro_INT_Shopping_Rendered.jpg" class="img-fluid mb-2" alt="Miniatura 2" data-bs-toggle="modal" data-bs-target="#modalProj5Img2" style="cursor:pointer;">
+                                        <img src="https://placehold.co/400x300?text=Imagem+2" class="img-fluid mb-2" alt="Miniatura 2" data-bs-toggle="modal" data-bs-target="#modalProj6Img2" style="cursor:pointer;">
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/proj5/05_Proj_KendirStudios_CliqueFinanceiro_INT_Bank_Rendered.jpg" class="img-fluid mb-2" alt="Miniatura 3" data-bs-toggle="modal" data-bs-target="#modalProj5Img3" style="cursor:pointer;">
+                                        <img src="https://placehold.co/400x300?text=Imagem+3" class="img-fluid mb-2" alt="Miniatura 3" data-bs-toggle="modal" data-bs-target="#modalProj6Img3" style="cursor:pointer;">
                                     </div>
                                 </div>
                             </div>
@@ -344,20 +354,20 @@
          <!-- Cartão 7 -->
                 <div class="col-12 mb-5">
                     <div class="card h-100 text-center">
-                        <img src="src/proj5/05_Proj_KendirStudios_CliqueFinanceiro_INT_Bank_Rendered.jpg" class="card-img-top" style="height: 700px; object-fit: cover; cursor: pointer;" alt="..." data-bs-toggle="collapse" data-bs-target="#collapseProj5" aria-expanded="false" aria-controls="collapseProj5">
+                        <img src="https://placehold.co/1200x700?text=Projeto+7" class="card-img-top" style="height: 700px; object-fit: cover; cursor: pointer;" alt="..." data-bs-toggle="collapse" data-bs-target="#collapseProj7" aria-expanded="false" aria-controls="collapseProj7">
                         <div class="card-body">
-                            <h5 class="card-title">Nome do Projeto 5</h5>
-                            <div class="collapse" id="collapseProj5">
-                                <p class="card-text">Estudo de luz e texturas.</p>
+                            <h5 class="card-title">Nome do Projeto 7</h5>
+                            <div class="collapse" id="collapseProj7">
+                                <p class="card-text">Descrição placeholder do projeto 7.</p>
                                 <div class="row mt-3">
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/proj5/05_Proj_KendirStudios_CliqueFinanceiro_INT_Library_Rendered.jpg" class="img-fluid mb-2" alt="Miniatura 1" data-bs-toggle="modal" data-bs-target="#modalProj5Img1" style="cursor:pointer;">
+                                        <img src="https://placehold.co/400x300?text=Imagem+1" class="img-fluid mb-2" alt="Miniatura 1" data-bs-toggle="modal" data-bs-target="#modalProj7Img1" style="cursor:pointer;">
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/proj5/05_Proj_KendirStudios_CliqueFinanceiro_INT_Shopping_Rendered.jpg" class="img-fluid mb-2" alt="Miniatura 2" data-bs-toggle="modal" data-bs-target="#modalProj5Img2" style="cursor:pointer;">
+                                        <img src="https://placehold.co/400x300?text=Imagem+2" class="img-fluid mb-2" alt="Miniatura 2" data-bs-toggle="modal" data-bs-target="#modalProj7Img2" style="cursor:pointer;">
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/proj5/05_Proj_KendirStudios_CliqueFinanceiro_INT_Bank_Rendered.jpg" class="img-fluid mb-2" alt="Miniatura 3" data-bs-toggle="modal" data-bs-target="#modalProj5Img3" style="cursor:pointer;">
+                                        <img src="https://placehold.co/400x300?text=Imagem+3" class="img-fluid mb-2" alt="Miniatura 3" data-bs-toggle="modal" data-bs-target="#modalProj7Img3" style="cursor:pointer;">
                                     </div>
                                 </div>
                             </div>
@@ -371,20 +381,20 @@
          <!-- Cartão 8 -->
                 <div class="col-12 mb-5">
                     <div class="card h-100 text-center">
-                        <img src="src/proj5/05_Proj_KendirStudios_CliqueFinanceiro_INT_Bank_Rendered.jpg" class="card-img-top" style="height: 700px; object-fit: cover; cursor: pointer;" alt="..." data-bs-toggle="collapse" data-bs-target="#collapseProj5" aria-expanded="false" aria-controls="collapseProj5">
+                        <img src="https://placehold.co/1200x700?text=Projeto+8" class="card-img-top" style="height: 700px; object-fit: cover; cursor: pointer;" alt="..." data-bs-toggle="collapse" data-bs-target="#collapseProj8" aria-expanded="false" aria-controls="collapseProj8">
                         <div class="card-body">
-                            <h5 class="card-title">Nome do Projeto 5</h5>
-                            <div class="collapse" id="collapseProj5">
-                                <p class="card-text">Estudo de luz e texturas.</p>
+                            <h5 class="card-title">Nome do Projeto 8</h5>
+                            <div class="collapse" id="collapseProj8">
+                                <p class="card-text">Descrição placeholder do projeto 8.</p>
                                 <div class="row mt-3">
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/proj5/05_Proj_KendirStudios_CliqueFinanceiro_INT_Library_Rendered.jpg" class="img-fluid mb-2" alt="Miniatura 1" data-bs-toggle="modal" data-bs-target="#modalProj5Img1" style="cursor:pointer;">
+                                        <img src="https://placehold.co/400x300?text=Imagem+1" class="img-fluid mb-2" alt="Miniatura 1" data-bs-toggle="modal" data-bs-target="#modalProj8Img1" style="cursor:pointer;">
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/proj5/05_Proj_KendirStudios_CliqueFinanceiro_INT_Shopping_Rendered.jpg" class="img-fluid mb-2" alt="Miniatura 2" data-bs-toggle="modal" data-bs-target="#modalProj5Img2" style="cursor:pointer;">
+                                        <img src="https://placehold.co/400x300?text=Imagem+2" class="img-fluid mb-2" alt="Miniatura 2" data-bs-toggle="modal" data-bs-target="#modalProj8Img2" style="cursor:pointer;">
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/proj5/05_Proj_KendirStudios_CliqueFinanceiro_INT_Bank_Rendered.jpg" class="img-fluid mb-2" alt="Miniatura 3" data-bs-toggle="modal" data-bs-target="#modalProj5Img3" style="cursor:pointer;">
+                                        <img src="https://placehold.co/400x300?text=Imagem+3" class="img-fluid mb-2" alt="Miniatura 3" data-bs-toggle="modal" data-bs-target="#modalProj8Img3" style="cursor:pointer;">
                                     </div>
                                 </div>
                             </div>
@@ -398,20 +408,20 @@
          <!-- Cartão 9 -->
                 <div class="col-12 mb-5">
                     <div class="card h-100 text-center">
-                        <img src="src/proj5/05_Proj_KendirStudios_CliqueFinanceiro_INT_Bank_Rendered.jpg" class="card-img-top" style="height: 700px; object-fit: cover; cursor: pointer;" alt="..." data-bs-toggle="collapse" data-bs-target="#collapseProj5" aria-expanded="false" aria-controls="collapseProj5">
+                        <img src="https://placehold.co/1200x700?text=Projeto+9" class="card-img-top" style="height: 700px; object-fit: cover; cursor: pointer;" alt="..." data-bs-toggle="collapse" data-bs-target="#collapseProj9" aria-expanded="false" aria-controls="collapseProj9">
                         <div class="card-body">
-                            <h5 class="card-title">Nome do Projeto 5</h5>
-                            <div class="collapse" id="collapseProj5">
-                                <p class="card-text">Estudo de luz e texturas.</p>
+                            <h5 class="card-title">Nome do Projeto 9</h5>
+                            <div class="collapse" id="collapseProj9">
+                                <p class="card-text">Descrição placeholder do projeto 9.</p>
                                 <div class="row mt-3">
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/proj5/05_Proj_KendirStudios_CliqueFinanceiro_INT_Library_Rendered.jpg" class="img-fluid mb-2" alt="Miniatura 1" data-bs-toggle="modal" data-bs-target="#modalProj5Img1" style="cursor:pointer;">
+                                        <img src="https://placehold.co/400x300?text=Imagem+1" class="img-fluid mb-2" alt="Miniatura 1" data-bs-toggle="modal" data-bs-target="#modalProj9Img1" style="cursor:pointer;">
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/proj5/05_Proj_KendirStudios_CliqueFinanceiro_INT_Shopping_Rendered.jpg" class="img-fluid mb-2" alt="Miniatura 2" data-bs-toggle="modal" data-bs-target="#modalProj5Img2" style="cursor:pointer;">
+                                        <img src="https://placehold.co/400x300?text=Imagem+2" class="img-fluid mb-2" alt="Miniatura 2" data-bs-toggle="modal" data-bs-target="#modalProj9Img2" style="cursor:pointer;">
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/proj5/05_Proj_KendirStudios_CliqueFinanceiro_INT_Bank_Rendered.jpg" class="img-fluid mb-2" alt="Miniatura 3" data-bs-toggle="modal" data-bs-target="#modalProj5Img3" style="cursor:pointer;">
+                                        <img src="https://placehold.co/400x300?text=Imagem+3" class="img-fluid mb-2" alt="Miniatura 3" data-bs-toggle="modal" data-bs-target="#modalProj9Img3" style="cursor:pointer;">
                                     </div>
                                 </div>
                             </div>
@@ -425,20 +435,20 @@
          <!-- Cartão 10-->
                 <div class="col-12 mb-5">
                     <div class="card h-100 text-center">
-                        <img src="src/proj5/05_Proj_KendirStudios_CliqueFinanceiro_INT_Bank_Rendered.jpg" class="card-img-top" style="height: 700px; object-fit: cover; cursor: pointer;" alt="..." data-bs-toggle="collapse" data-bs-target="#collapseProj5" aria-expanded="false" aria-controls="collapseProj5">
+                        <img src="https://placehold.co/1200x700?text=Projeto+10" class="card-img-top" style="height: 700px; object-fit: cover; cursor: pointer;" alt="..." data-bs-toggle="collapse" data-bs-target="#collapseProj10" aria-expanded="false" aria-controls="collapseProj10">
                         <div class="card-body">
-                            <h5 class="card-title">Nome do Projeto 5</h5>
-                            <div class="collapse" id="collapseProj5">
-                                <p class="card-text">Estudo de luz e texturas.</p>
+                            <h5 class="card-title">Nome do Projeto 10</h5>
+                            <div class="collapse" id="collapseProj10">
+                                <p class="card-text">Descrição placeholder do projeto 10.</p>
                                 <div class="row mt-3">
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/proj5/05_Proj_KendirStudios_CliqueFinanceiro_INT_Library_Rendered.jpg" class="img-fluid mb-2" alt="Miniatura 1" data-bs-toggle="modal" data-bs-target="#modalProj5Img1" style="cursor:pointer;">
+                                        <img src="https://placehold.co/400x300?text=Imagem+1" class="img-fluid mb-2" alt="Miniatura 1" data-bs-toggle="modal" data-bs-target="#modalProj10Img1" style="cursor:pointer;">
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/proj5/05_Proj_KendirStudios_CliqueFinanceiro_INT_Shopping_Rendered.jpg" class="img-fluid mb-2" alt="Miniatura 2" data-bs-toggle="modal" data-bs-target="#modalProj5Img2" style="cursor:pointer;">
+                                        <img src="https://placehold.co/400x300?text=Imagem+2" class="img-fluid mb-2" alt="Miniatura 2" data-bs-toggle="modal" data-bs-target="#modalProj10Img2" style="cursor:pointer;">
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/proj5/05_Proj_KendirStudios_CliqueFinanceiro_INT_Bank_Rendered.jpg" class="img-fluid mb-2" alt="Miniatura 3" data-bs-toggle="modal" data-bs-target="#modalProj5Img3" style="cursor:pointer;">
+                                        <img src="https://placehold.co/400x300?text=Imagem+3" class="img-fluid mb-2" alt="Miniatura 3" data-bs-toggle="modal" data-bs-target="#modalProj10Img3" style="cursor:pointer;">
                                     </div>
                                 </div>
                             </div>
@@ -452,20 +462,20 @@
          <!-- Cartão 11-->
                 <div class="col-12 mb-5">
                     <div class="card h-100 text-center">
-                        <img src="src/proj5/05_Proj_KendirStudios_CliqueFinanceiro_INT_Bank_Rendered.jpg" class="card-img-top" style="height: 700px; object-fit: cover; cursor: pointer;" alt="..." data-bs-toggle="collapse" data-bs-target="#collapseProj5" aria-expanded="false" aria-controls="collapseProj5">
+                        <img src="https://placehold.co/1200x700?text=Projeto+11" class="card-img-top" style="height: 700px; object-fit: cover; cursor: pointer;" alt="..." data-bs-toggle="collapse" data-bs-target="#collapseProj11" aria-expanded="false" aria-controls="collapseProj11">
                         <div class="card-body">
-                            <h5 class="card-title">Nome do Projeto 5</h5>
-                            <div class="collapse" id="collapseProj5">
-                                <p class="card-text">Estudo de luz e texturas.</p>
+                            <h5 class="card-title">Nome do Projeto 11</h5>
+                            <div class="collapse" id="collapseProj11">
+                                <p class="card-text">Descrição placeholder do projeto 11.</p>
                                 <div class="row mt-3">
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/proj5/05_Proj_KendirStudios_CliqueFinanceiro_INT_Library_Rendered.jpg" class="img-fluid mb-2" alt="Miniatura 1" data-bs-toggle="modal" data-bs-target="#modalProj5Img1" style="cursor:pointer;">
+                                        <img src="https://placehold.co/400x300?text=Imagem+1" class="img-fluid mb-2" alt="Miniatura 1" data-bs-toggle="modal" data-bs-target="#modalProj11Img1" style="cursor:pointer;">
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/proj5/05_Proj_KendirStudios_CliqueFinanceiro_INT_Shopping_Rendered.jpg" class="img-fluid mb-2" alt="Miniatura 2" data-bs-toggle="modal" data-bs-target="#modalProj5Img2" style="cursor:pointer;">
+                                        <img src="https://placehold.co/400x300?text=Imagem+2" class="img-fluid mb-2" alt="Miniatura 2" data-bs-toggle="modal" data-bs-target="#modalProj11Img2" style="cursor:pointer;">
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/proj5/05_Proj_KendirStudios_CliqueFinanceiro_INT_Bank_Rendered.jpg" class="img-fluid mb-2" alt="Miniatura 3" data-bs-toggle="modal" data-bs-target="#modalProj5Img3" style="cursor:pointer;">
+                                        <img src="https://placehold.co/400x300?text=Imagem+3" class="img-fluid mb-2" alt="Miniatura 3" data-bs-toggle="modal" data-bs-target="#modalProj11Img3" style="cursor:pointer;">
                                     </div>
                                 </div>
                             </div>
@@ -479,20 +489,20 @@
          <!-- Cartão 12-->
                 <div class="col-12 mb-5">
                     <div class="card h-100 text-center">
-                        <img src="src/proj5/05_Proj_KendirStudios_CliqueFinanceiro_INT_Bank_Rendered.jpg" class="card-img-top" style="height: 700px; object-fit: cover; cursor: pointer;" alt="..." data-bs-toggle="collapse" data-bs-target="#collapseProj5" aria-expanded="false" aria-controls="collapseProj5">
+                        <img src="https://placehold.co/1200x700?text=Projeto+12" class="card-img-top" style="height: 700px; object-fit: cover; cursor: pointer;" alt="..." data-bs-toggle="collapse" data-bs-target="#collapseProj12" aria-expanded="false" aria-controls="collapseProj12">
                         <div class="card-body">
-                            <h5 class="card-title">Nome do Projeto 5</h5>
-                            <div class="collapse" id="collapseProj5">
-                                <p class="card-text">Estudo de luz e texturas.</p>
+                            <h5 class="card-title">Nome do Projeto 12</h5>
+                            <div class="collapse" id="collapseProj12">
+                                <p class="card-text">Descrição placeholder do projeto 12.</p>
                                 <div class="row mt-3">
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/proj5/05_Proj_KendirStudios_CliqueFinanceiro_INT_Library_Rendered.jpg" class="img-fluid mb-2" alt="Miniatura 1" data-bs-toggle="modal" data-bs-target="#modalProj5Img1" style="cursor:pointer;">
+                                        <img src="https://placehold.co/400x300?text=Imagem+1" class="img-fluid mb-2" alt="Miniatura 1" data-bs-toggle="modal" data-bs-target="#modalProj12Img1" style="cursor:pointer;">
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/proj5/05_Proj_KendirStudios_CliqueFinanceiro_INT_Shopping_Rendered.jpg" class="img-fluid mb-2" alt="Miniatura 2" data-bs-toggle="modal" data-bs-target="#modalProj5Img2" style="cursor:pointer;">
+                                        <img src="https://placehold.co/400x300?text=Imagem+2" class="img-fluid mb-2" alt="Miniatura 2" data-bs-toggle="modal" data-bs-target="#modalProj12Img2" style="cursor:pointer;">
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/proj5/05_Proj_KendirStudios_CliqueFinanceiro_INT_Bank_Rendered.jpg" class="img-fluid mb-2" alt="Miniatura 3" data-bs-toggle="modal" data-bs-target="#modalProj5Img3" style="cursor:pointer;">
+                                        <img src="https://placehold.co/400x300?text=Imagem+3" class="img-fluid mb-2" alt="Miniatura 3" data-bs-toggle="modal" data-bs-target="#modalProj12Img3" style="cursor:pointer;">
                                     </div>
                                 </div>
                             </div>
@@ -506,20 +516,20 @@
          <!-- Cartão 13-->
                 <div class="col-12 mb-5">
                     <div class="card h-100 text-center">
-                        <img src="src/proj5/05_Proj_KendirStudios_CliqueFinanceiro_INT_Bank_Rendered.jpg" class="card-img-top" style="height: 700px; object-fit: cover; cursor: pointer;" alt="..." data-bs-toggle="collapse" data-bs-target="#collapseProj5" aria-expanded="false" aria-controls="collapseProj5">
+                        <img src="https://placehold.co/1200x700?text=Projeto+13" class="card-img-top" style="height: 700px; object-fit: cover; cursor: pointer;" alt="..." data-bs-toggle="collapse" data-bs-target="#collapseProj13" aria-expanded="false" aria-controls="collapseProj13">
                         <div class="card-body">
-                            <h5 class="card-title">Nome do Projeto 5</h5>
-                            <div class="collapse" id="collapseProj5">
-                                <p class="card-text">Estudo de luz e texturas.</p>
+                            <h5 class="card-title">Nome do Projeto 13</h5>
+                            <div class="collapse" id="collapseProj13">
+                                <p class="card-text">Descrição placeholder do projeto 13.</p>
                                 <div class="row mt-3">
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/proj5/05_Proj_KendirStudios_CliqueFinanceiro_INT_Library_Rendered.jpg" class="img-fluid mb-2" alt="Miniatura 1" data-bs-toggle="modal" data-bs-target="#modalProj5Img1" style="cursor:pointer;">
+                                        <img src="https://placehold.co/400x300?text=Imagem+1" class="img-fluid mb-2" alt="Miniatura 1" data-bs-toggle="modal" data-bs-target="#modalProj13Img1" style="cursor:pointer;">
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/proj5/05_Proj_KendirStudios_CliqueFinanceiro_INT_Shopping_Rendered.jpg" class="img-fluid mb-2" alt="Miniatura 2" data-bs-toggle="modal" data-bs-target="#modalProj5Img2" style="cursor:pointer;">
+                                        <img src="https://placehold.co/400x300?text=Imagem+2" class="img-fluid mb-2" alt="Miniatura 2" data-bs-toggle="modal" data-bs-target="#modalProj13Img2" style="cursor:pointer;">
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/proj5/05_Proj_KendirStudios_CliqueFinanceiro_INT_Bank_Rendered.jpg" class="img-fluid mb-2" alt="Miniatura 3" data-bs-toggle="modal" data-bs-target="#modalProj5Img3" style="cursor:pointer;">
+                                        <img src="https://placehold.co/400x300?text=Imagem+3" class="img-fluid mb-2" alt="Miniatura 3" data-bs-toggle="modal" data-bs-target="#modalProj13Img3" style="cursor:pointer;">
                                     </div>
                                 </div>
                             </div>
@@ -533,20 +543,20 @@
          <!-- Cartão 14 -->
                 <div class="col-12 mb-5">
                     <div class="card h-100 text-center">
-                        <img src="src/proj5/05_Proj_KendirStudios_CliqueFinanceiro_INT_Bank_Rendered.jpg" class="card-img-top" style="height: 700px; object-fit: cover; cursor: pointer;" alt="..." data-bs-toggle="collapse" data-bs-target="#collapseProj5" aria-expanded="false" aria-controls="collapseProj5">
+                        <img src="https://placehold.co/1200x700?text=Projeto+14" class="card-img-top" style="height: 700px; object-fit: cover; cursor: pointer;" alt="..." data-bs-toggle="collapse" data-bs-target="#collapseProj14" aria-expanded="false" aria-controls="collapseProj14">
                         <div class="card-body">
-                            <h5 class="card-title">Nome do Projeto 5</h5>
-                            <div class="collapse" id="collapseProj5">
-                                <p class="card-text">Estudo de luz e texturas.</p>
+                            <h5 class="card-title">Nome do Projeto 14</h5>
+                            <div class="collapse" id="collapseProj14">
+                                <p class="card-text">Descrição placeholder do projeto 14.</p>
                                 <div class="row mt-3">
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/proj5/05_Proj_KendirStudios_CliqueFinanceiro_INT_Library_Rendered.jpg" class="img-fluid mb-2" alt="Miniatura 1" data-bs-toggle="modal" data-bs-target="#modalProj5Img1" style="cursor:pointer;">
+                                        <img src="https://placehold.co/400x300?text=Imagem+1" class="img-fluid mb-2" alt="Miniatura 1" data-bs-toggle="modal" data-bs-target="#modalProj14Img1" style="cursor:pointer;">
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/proj5/05_Proj_KendirStudios_CliqueFinanceiro_INT_Shopping_Rendered.jpg" class="img-fluid mb-2" alt="Miniatura 2" data-bs-toggle="modal" data-bs-target="#modalProj5Img2" style="cursor:pointer;">
+                                        <img src="https://placehold.co/400x300?text=Imagem+2" class="img-fluid mb-2" alt="Miniatura 2" data-bs-toggle="modal" data-bs-target="#modalProj14Img2" style="cursor:pointer;">
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/proj5/05_Proj_KendirStudios_CliqueFinanceiro_INT_Bank_Rendered.jpg" class="img-fluid mb-2" alt="Miniatura 3" data-bs-toggle="modal" data-bs-target="#modalProj5Img3" style="cursor:pointer;">
+                                        <img src="https://placehold.co/400x300?text=Imagem+3" class="img-fluid mb-2" alt="Miniatura 3" data-bs-toggle="modal" data-bs-target="#modalProj14Img3" style="cursor:pointer;">
                                     </div>
                                 </div>
                             </div>
@@ -560,20 +570,20 @@
          <!-- Cartão 15 -->
                 <div class="col-12 mb-5">
                     <div class="card h-100 text-center">
-                        <img src="src/proj5/05_Proj_KendirStudios_CliqueFinanceiro_INT_Bank_Rendered.jpg" class="card-img-top" style="height: 700px; object-fit: cover; cursor: pointer;" alt="..." data-bs-toggle="collapse" data-bs-target="#collapseProj5" aria-expanded="false" aria-controls="collapseProj5">
+                        <img src="https://placehold.co/1200x700?text=Projeto+15" class="card-img-top" style="height: 700px; object-fit: cover; cursor: pointer;" alt="..." data-bs-toggle="collapse" data-bs-target="#collapseProj15" aria-expanded="false" aria-controls="collapseProj15">
                         <div class="card-body">
-                            <h5 class="card-title">Nome do Projeto 5</h5>
-                            <div class="collapse" id="collapseProj5">
-                                <p class="card-text">Estudo de luz e texturas.</p>
+                            <h5 class="card-title">Nome do Projeto 15</h5>
+                            <div class="collapse" id="collapseProj15">
+                                <p class="card-text">Descrição placeholder do projeto 15.</p>
                                 <div class="row mt-3">
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/proj5/05_Proj_KendirStudios_CliqueFinanceiro_INT_Library_Rendered.jpg" class="img-fluid mb-2" alt="Miniatura 1" data-bs-toggle="modal" data-bs-target="#modalProj5Img1" style="cursor:pointer;">
+                                        <img src="https://placehold.co/400x300?text=Imagem+1" class="img-fluid mb-2" alt="Miniatura 1" data-bs-toggle="modal" data-bs-target="#modalProj15Img1" style="cursor:pointer;">
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/proj5/05_Proj_KendirStudios_CliqueFinanceiro_INT_Shopping_Rendered.jpg" class="img-fluid mb-2" alt="Miniatura 2" data-bs-toggle="modal" data-bs-target="#modalProj5Img2" style="cursor:pointer;">
+                                        <img src="https://placehold.co/400x300?text=Imagem+2" class="img-fluid mb-2" alt="Miniatura 2" data-bs-toggle="modal" data-bs-target="#modalProj15Img2" style="cursor:pointer;">
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/proj5/05_Proj_KendirStudios_CliqueFinanceiro_INT_Bank_Rendered.jpg" class="img-fluid mb-2" alt="Miniatura 3" data-bs-toggle="modal" data-bs-target="#modalProj5Img3" style="cursor:pointer;">
+                                        <img src="https://placehold.co/400x300?text=Imagem+3" class="img-fluid mb-2" alt="Miniatura 3" data-bs-toggle="modal" data-bs-target="#modalProj15Img3" style="cursor:pointer;">
                                     </div>
                                 </div>
                             </div>
@@ -923,6 +933,726 @@
                         <div class="mb-3 text-start">
                             <h5 class="text-start">Ferramentas usadas</h5>
                             <p class="text-start">Blender, Photoshop, AutoCAD</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Projeto 6 Imagem 1 -->
+    <div class="modal fade" id="modalProj6Img1" tabindex="-1" aria-labelledby="modalProj6Img1Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-white">
+                <div class="modal-body">
+                    <div class="modal-text-sections">
+                        <div class="mb-3">
+                            <h5>Sobre o projeto</h5>
+                            <p>Descrição placeholder do projeto 6, imagem 1.</p>
+                        </div>
+                        <hr class="bg-secondary w-50 mx-auto my-2">
+                        <div class="mb-3 text-start">
+                            <h5 class="text-start">Ferramentas usadas</h5>
+                            <p class="text-start">Ferramentas placeholder.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Projeto 6 Imagem 2 -->
+    <div class="modal fade" id="modalProj6Img2" tabindex="-1" aria-labelledby="modalProj6Img2Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-white">
+                <div class="modal-body">
+                    <div class="modal-text-sections">
+                        <div class="mb-3">
+                            <h5>Sobre o projeto</h5>
+                            <p>Descrição placeholder do projeto 6, imagem 2.</p>
+                        </div>
+                        <hr class="bg-secondary w-50 mx-auto my-2">
+                        <div class="mb-3 text-start">
+                            <h5 class="text-start">Ferramentas usadas</h5>
+                            <p class="text-start">Ferramentas placeholder.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Projeto 6 Imagem 3 -->
+    <div class="modal fade" id="modalProj6Img3" tabindex="-1" aria-labelledby="modalProj6Img3Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-white">
+                <div class="modal-body">
+                    <div class="modal-text-sections">
+                        <div class="mb-3">
+                            <h5>Sobre o projeto</h5>
+                            <p>Descrição placeholder do projeto 6, imagem 3.</p>
+                        </div>
+                        <hr class="bg-secondary w-50 mx-auto my-2">
+                        <div class="mb-3 text-start">
+                            <h5 class="text-start">Ferramentas usadas</h5>
+                            <p class="text-start">Ferramentas placeholder.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Projeto 7 Imagem 1 -->
+    <div class="modal fade" id="modalProj7Img1" tabindex="-1" aria-labelledby="modalProj7Img1Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-white">
+                <div class="modal-body">
+                    <div class="modal-text-sections">
+                        <div class="mb-3">
+                            <h5>Sobre o projeto</h5>
+                            <p>Descrição placeholder do projeto 7, imagem 1.</p>
+                        </div>
+                        <hr class="bg-secondary w-50 mx-auto my-2">
+                        <div class="mb-3 text-start">
+                            <h5 class="text-start">Ferramentas usadas</h5>
+                            <p class="text-start">Ferramentas placeholder.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Projeto 7 Imagem 2 -->
+    <div class="modal fade" id="modalProj7Img2" tabindex="-1" aria-labelledby="modalProj7Img2Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-white">
+                <div class="modal-body">
+                    <div class="modal-text-sections">
+                        <div class="mb-3">
+                            <h5>Sobre o projeto</h5>
+                            <p>Descrição placeholder do projeto 7, imagem 2.</p>
+                        </div>
+                        <hr class="bg-secondary w-50 mx-auto my-2">
+                        <div class="mb-3 text-start">
+                            <h5 class="text-start">Ferramentas usadas</h5>
+                            <p class="text-start">Ferramentas placeholder.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Projeto 7 Imagem 3 -->
+    <div class="modal fade" id="modalProj7Img3" tabindex="-1" aria-labelledby="modalProj7Img3Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-white">
+                <div class="modal-body">
+                    <div class="modal-text-sections">
+                        <div class="mb-3">
+                            <h5>Sobre o projeto</h5>
+                            <p>Descrição placeholder do projeto 7, imagem 3.</p>
+                        </div>
+                        <hr class="bg-secondary w-50 mx-auto my-2">
+                        <div class="mb-3 text-start">
+                            <h5 class="text-start">Ferramentas usadas</h5>
+                            <p class="text-start">Ferramentas placeholder.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Projeto 8 Imagem 1 -->
+    <div class="modal fade" id="modalProj8Img1" tabindex="-1" aria-labelledby="modalProj8Img1Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-white">
+                <div class="modal-body">
+                    <div class="modal-text-sections">
+                        <div class="mb-3">
+                            <h5>Sobre o projeto</h5>
+                            <p>Descrição placeholder do projeto 8, imagem 1.</p>
+                        </div>
+                        <hr class="bg-secondary w-50 mx-auto my-2">
+                        <div class="mb-3 text-start">
+                            <h5 class="text-start">Ferramentas usadas</h5>
+                            <p class="text-start">Ferramentas placeholder.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Projeto 8 Imagem 2 -->
+    <div class="modal fade" id="modalProj8Img2" tabindex="-1" aria-labelledby="modalProj8Img2Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-white">
+                <div class="modal-body">
+                    <div class="modal-text-sections">
+                        <div class="mb-3">
+                            <h5>Sobre o projeto</h5>
+                            <p>Descrição placeholder do projeto 8, imagem 2.</p>
+                        </div>
+                        <hr class="bg-secondary w-50 mx-auto my-2">
+                        <div class="mb-3 text-start">
+                            <h5 class="text-start">Ferramentas usadas</h5>
+                            <p class="text-start">Ferramentas placeholder.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Projeto 8 Imagem 3 -->
+    <div class="modal fade" id="modalProj8Img3" tabindex="-1" aria-labelledby="modalProj8Img3Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-white">
+                <div class="modal-body">
+                    <div class="modal-text-sections">
+                        <div class="mb-3">
+                            <h5>Sobre o projeto</h5>
+                            <p>Descrição placeholder do projeto 8, imagem 3.</p>
+                        </div>
+                        <hr class="bg-secondary w-50 mx-auto my-2">
+                        <div class="mb-3 text-start">
+                            <h5 class="text-start">Ferramentas usadas</h5>
+                            <p class="text-start">Ferramentas placeholder.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Projeto 9 Imagem 1 -->
+    <div class="modal fade" id="modalProj9Img1" tabindex="-1" aria-labelledby="modalProj9Img1Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-white">
+                <div class="modal-body">
+                    <div class="modal-text-sections">
+                        <div class="mb-3">
+                            <h5>Sobre o projeto</h5>
+                            <p>Descrição placeholder do projeto 9, imagem 1.</p>
+                        </div>
+                        <hr class="bg-secondary w-50 mx-auto my-2">
+                        <div class="mb-3 text-start">
+                            <h5 class="text-start">Ferramentas usadas</h5>
+                            <p class="text-start">Ferramentas placeholder.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Projeto 9 Imagem 2 -->
+    <div class="modal fade" id="modalProj9Img2" tabindex="-1" aria-labelledby="modalProj9Img2Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-white">
+                <div class="modal-body">
+                    <div class="modal-text-sections">
+                        <div class="mb-3">
+                            <h5>Sobre o projeto</h5>
+                            <p>Descrição placeholder do projeto 9, imagem 2.</p>
+                        </div>
+                        <hr class="bg-secondary w-50 mx-auto my-2">
+                        <div class="mb-3 text-start">
+                            <h5 class="text-start">Ferramentas usadas</h5>
+                            <p class="text-start">Ferramentas placeholder.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Projeto 9 Imagem 3 -->
+    <div class="modal fade" id="modalProj9Img3" tabindex="-1" aria-labelledby="modalProj9Img3Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-white">
+                <div class="modal-body">
+                    <div class="modal-text-sections">
+                        <div class="mb-3">
+                            <h5>Sobre o projeto</h5>
+                            <p>Descrição placeholder do projeto 9, imagem 3.</p>
+                        </div>
+                        <hr class="bg-secondary w-50 mx-auto my-2">
+                        <div class="mb-3 text-start">
+                            <h5 class="text-start">Ferramentas usadas</h5>
+                            <p class="text-start">Ferramentas placeholder.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Projeto 10 Imagem 1 -->
+    <div class="modal fade" id="modalProj10Img1" tabindex="-1" aria-labelledby="modalProj10Img1Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-white">
+                <div class="modal-body">
+                    <div class="modal-text-sections">
+                        <div class="mb-3">
+                            <h5>Sobre o projeto</h5>
+                            <p>Descrição placeholder do projeto 10, imagem 1.</p>
+                        </div>
+                        <hr class="bg-secondary w-50 mx-auto my-2">
+                        <div class="mb-3 text-start">
+                            <h5 class="text-start">Ferramentas usadas</h5>
+                            <p class="text-start">Ferramentas placeholder.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Projeto 10 Imagem 2 -->
+    <div class="modal fade" id="modalProj10Img2" tabindex="-1" aria-labelledby="modalProj10Img2Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-white">
+                <div class="modal-body">
+                    <div class="modal-text-sections">
+                        <div class="mb-3">
+                            <h5>Sobre o projeto</h5>
+                            <p>Descrição placeholder do projeto 10, imagem 2.</p>
+                        </div>
+                        <hr class="bg-secondary w-50 mx-auto my-2">
+                        <div class="mb-3 text-start">
+                            <h5 class="text-start">Ferramentas usadas</h5>
+                            <p class="text-start">Ferramentas placeholder.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Projeto 10 Imagem 3 -->
+    <div class="modal fade" id="modalProj10Img3" tabindex="-1" aria-labelledby="modalProj10Img3Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-white">
+                <div class="modal-body">
+                    <div class="modal-text-sections">
+                        <div class="mb-3">
+                            <h5>Sobre o projeto</h5>
+                            <p>Descrição placeholder do projeto 10, imagem 3.</p>
+                        </div>
+                        <hr class="bg-secondary w-50 mx-auto my-2">
+                        <div class="mb-3 text-start">
+                            <h5 class="text-start">Ferramentas usadas</h5>
+                            <p class="text-start">Ferramentas placeholder.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Projeto 11 Imagem 1 -->
+    <div class="modal fade" id="modalProj11Img1" tabindex="-1" aria-labelledby="modalProj11Img1Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-white">
+                <div class="modal-body">
+                    <div class="modal-text-sections">
+                        <div class="mb-3">
+                            <h5>Sobre o projeto</h5>
+                            <p>Descrição placeholder do projeto 11, imagem 1.</p>
+                        </div>
+                        <hr class="bg-secondary w-50 mx-auto my-2">
+                        <div class="mb-3 text-start">
+                            <h5 class="text-start">Ferramentas usadas</h5>
+                            <p class="text-start">Ferramentas placeholder.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Projeto 11 Imagem 2 -->
+    <div class="modal fade" id="modalProj11Img2" tabindex="-1" aria-labelledby="modalProj11Img2Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-white">
+                <div class="modal-body">
+                    <div class="modal-text-sections">
+                        <div class="mb-3">
+                            <h5>Sobre o projeto</h5>
+                            <p>Descrição placeholder do projeto 11, imagem 2.</p>
+                        </div>
+                        <hr class="bg-secondary w-50 mx-auto my-2">
+                        <div class="mb-3 text-start">
+                            <h5 class="text-start">Ferramentas usadas</h5>
+                            <p class="text-start">Ferramentas placeholder.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Projeto 11 Imagem 3 -->
+    <div class="modal fade" id="modalProj11Img3" tabindex="-1" aria-labelledby="modalProj11Img3Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-white">
+                <div class="modal-body">
+                    <div class="modal-text-sections">
+                        <div class="mb-3">
+                            <h5>Sobre o projeto</h5>
+                            <p>Descrição placeholder do projeto 11, imagem 3.</p>
+                        </div>
+                        <hr class="bg-secondary w-50 mx-auto my-2">
+                        <div class="mb-3 text-start">
+                            <h5 class="text-start">Ferramentas usadas</h5>
+                            <p class="text-start">Ferramentas placeholder.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Projeto 12 Imagem 1 -->
+    <div class="modal fade" id="modalProj12Img1" tabindex="-1" aria-labelledby="modalProj12Img1Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-white">
+                <div class="modal-body">
+                    <div class="modal-text-sections">
+                        <div class="mb-3">
+                            <h5>Sobre o projeto</h5>
+                            <p>Descrição placeholder do projeto 12, imagem 1.</p>
+                        </div>
+                        <hr class="bg-secondary w-50 mx-auto my-2">
+                        <div class="mb-3 text-start">
+                            <h5 class="text-start">Ferramentas usadas</h5>
+                            <p class="text-start">Ferramentas placeholder.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Projeto 12 Imagem 2 -->
+    <div class="modal fade" id="modalProj12Img2" tabindex="-1" aria-labelledby="modalProj12Img2Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-white">
+                <div class="modal-body">
+                    <div class="modal-text-sections">
+                        <div class="mb-3">
+                            <h5>Sobre o projeto</h5>
+                            <p>Descrição placeholder do projeto 12, imagem 2.</p>
+                        </div>
+                        <hr class="bg-secondary w-50 mx-auto my-2">
+                        <div class="mb-3 text-start">
+                            <h5 class="text-start">Ferramentas usadas</h5>
+                            <p class="text-start">Ferramentas placeholder.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Projeto 12 Imagem 3 -->
+    <div class="modal fade" id="modalProj12Img3" tabindex="-1" aria-labelledby="modalProj12Img3Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-white">
+                <div class="modal-body">
+                    <div class="modal-text-sections">
+                        <div class="mb-3">
+                            <h5>Sobre o projeto</h5>
+                            <p>Descrição placeholder do projeto 12, imagem 3.</p>
+                        </div>
+                        <hr class="bg-secondary w-50 mx-auto my-2">
+                        <div class="mb-3 text-start">
+                            <h5 class="text-start">Ferramentas usadas</h5>
+                            <p class="text-start">Ferramentas placeholder.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Projeto 13 Imagem 1 -->
+    <div class="modal fade" id="modalProj13Img1" tabindex="-1" aria-labelledby="modalProj13Img1Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-white">
+                <div class="modal-body">
+                    <div class="modal-text-sections">
+                        <div class="mb-3">
+                            <h5>Sobre o projeto</h5>
+                            <p>Descrição placeholder do projeto 13, imagem 1.</p>
+                        </div>
+                        <hr class="bg-secondary w-50 mx-auto my-2">
+                        <div class="mb-3 text-start">
+                            <h5 class="text-start">Ferramentas usadas</h5>
+                            <p class="text-start">Ferramentas placeholder.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Projeto 13 Imagem 2 -->
+    <div class="modal fade" id="modalProj13Img2" tabindex="-1" aria-labelledby="modalProj13Img2Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-white">
+                <div class="modal-body">
+                    <div class="modal-text-sections">
+                        <div class="mb-3">
+                            <h5>Sobre o projeto</h5>
+                            <p>Descrição placeholder do projeto 13, imagem 2.</p>
+                        </div>
+                        <hr class="bg-secondary w-50 mx-auto my-2">
+                        <div class="mb-3 text-start">
+                            <h5 class="text-start">Ferramentas usadas</h5>
+                            <p class="text-start">Ferramentas placeholder.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Projeto 13 Imagem 3 -->
+    <div class="modal fade" id="modalProj13Img3" tabindex="-1" aria-labelledby="modalProj13Img3Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-white">
+                <div class="modal-body">
+                    <div class="modal-text-sections">
+                        <div class="mb-3">
+                            <h5>Sobre o projeto</h5>
+                            <p>Descrição placeholder do projeto 13, imagem 3.</p>
+                        </div>
+                        <hr class="bg-secondary w-50 mx-auto my-2">
+                        <div class="mb-3 text-start">
+                            <h5 class="text-start">Ferramentas usadas</h5>
+                            <p class="text-start">Ferramentas placeholder.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Projeto 14 Imagem 1 -->
+    <div class="modal fade" id="modalProj14Img1" tabindex="-1" aria-labelledby="modalProj14Img1Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-white">
+                <div class="modal-body">
+                    <div class="modal-text-sections">
+                        <div class="mb-3">
+                            <h5>Sobre o projeto</h5>
+                            <p>Descrição placeholder do projeto 14, imagem 1.</p>
+                        </div>
+                        <hr class="bg-secondary w-50 mx-auto my-2">
+                        <div class="mb-3 text-start">
+                            <h5 class="text-start">Ferramentas usadas</h5>
+                            <p class="text-start">Ferramentas placeholder.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Projeto 14 Imagem 2 -->
+    <div class="modal fade" id="modalProj14Img2" tabindex="-1" aria-labelledby="modalProj14Img2Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-white">
+                <div class="modal-body">
+                    <div class="modal-text-sections">
+                        <div class="mb-3">
+                            <h5>Sobre o projeto</h5>
+                            <p>Descrição placeholder do projeto 14, imagem 2.</p>
+                        </div>
+                        <hr class="bg-secondary w-50 mx-auto my-2">
+                        <div class="mb-3 text-start">
+                            <h5 class="text-start">Ferramentas usadas</h5>
+                            <p class="text-start">Ferramentas placeholder.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Projeto 14 Imagem 3 -->
+    <div class="modal fade" id="modalProj14Img3" tabindex="-1" aria-labelledby="modalProj14Img3Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-white">
+                <div class="modal-body">
+                    <div class="modal-text-sections">
+                        <div class="mb-3">
+                            <h5>Sobre o projeto</h5>
+                            <p>Descrição placeholder do projeto 14, imagem 3.</p>
+                        </div>
+                        <hr class="bg-secondary w-50 mx-auto my-2">
+                        <div class="mb-3 text-start">
+                            <h5 class="text-start">Ferramentas usadas</h5>
+                            <p class="text-start">Ferramentas placeholder.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Projeto 15 Imagem 1 -->
+    <div class="modal fade" id="modalProj15Img1" tabindex="-1" aria-labelledby="modalProj15Img1Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-white">
+                <div class="modal-body">
+                    <div class="modal-text-sections">
+                        <div class="mb-3">
+                            <h5>Sobre o projeto</h5>
+                            <p>Descrição placeholder do projeto 15, imagem 1.</p>
+                        </div>
+                        <hr class="bg-secondary w-50 mx-auto my-2">
+                        <div class="mb-3 text-start">
+                            <h5 class="text-start">Ferramentas usadas</h5>
+                            <p class="text-start">Ferramentas placeholder.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Projeto 15 Imagem 2 -->
+    <div class="modal fade" id="modalProj15Img2" tabindex="-1" aria-labelledby="modalProj15Img2Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-white">
+                <div class="modal-body">
+                    <div class="modal-text-sections">
+                        <div class="mb-3">
+                            <h5>Sobre o projeto</h5>
+                            <p>Descrição placeholder do projeto 15, imagem 2.</p>
+                        </div>
+                        <hr class="bg-secondary w-50 mx-auto my-2">
+                        <div class="mb-3 text-start">
+                            <h5 class="text-start">Ferramentas usadas</h5>
+                            <p class="text-start">Ferramentas placeholder.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Projeto 15 Imagem 3 -->
+    <div class="modal fade" id="modalProj15Img3" tabindex="-1" aria-labelledby="modalProj15Img3Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark text-white">
+                <div class="modal-body">
+                    <div class="modal-text-sections">
+                        <div class="mb-3">
+                            <h5>Sobre o projeto</h5>
+                            <p>Descrição placeholder do projeto 15, imagem 3.</p>
+                        </div>
+                        <hr class="bg-secondary w-50 mx-auto my-2">
+                        <div class="mb-3 text-start">
+                            <h5 class="text-start">Ferramentas usadas</h5>
+                            <p class="text-start">Ferramentas placeholder.</p>
                         </div>
                     </div>
                 </div>

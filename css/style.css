@@ -191,6 +191,31 @@ section {
     align-items: center;
 }
 
+.dropdown-menu {
+    background-color: var(--cor-fundo);
+    border: 2px solid var(--cor-destaque-2);
+    margin-top: 0.5rem;
+}
+
+.dropdown-item {
+    color: var(--cor-texto-principal);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dropdown-item:hover {
+    background-color: var(--cor-destaque-2);
+    color: var(--cor-fundo);
+}
+
+.dropdown-item:focus {
+    background-color: var(--cor-destaque-2);
+    color: var(--cor-fundo);
+}
+
+#sobreTabsContent .tab-pane p {
+    text-align: justify;
+}
+
 .bg-light {
     background-color: #1a1a1a !important; 
     color: var(--cor-texto-principal);

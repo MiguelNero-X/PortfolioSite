@@ -37,7 +37,24 @@
                     </ul>
                     <div class="navbar-logo-spacer"></div>
                     <ul class="navbar-nav navbar-nav-right">
-                        <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#projetos" id="navbarDropdownProjetos" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Projetos
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownProjetos">
+                                <li><a class="dropdown-item" href="#projeto1">Barcelona Pavilion</a></li>
+                                <li><a class="dropdown-item" href="#projeto2">Casa Moderna</a></li>
+                                <li><a class="dropdown-item" href="#projeto3">HyperTrain</a></li>
+                                <li><a class="dropdown-item" href="#projeto4">A Última Estação</a></li>
+                                <li><a class="dropdown-item" href="#projeto5">Banco - Clique Financeiro</a></li>
+                                <li><a class="dropdown-item" href="#projeto6">Casa - Clique Financeiro</a></li>
+                                <li><a class="dropdown-item" href="#projeto7">Biblioteca - Clique Financeiro</a></li>
+                                <li><a class="dropdown-item" href="#projeto8">Escola - Clique Financeiro</a></li>
+                                <li><a class="dropdown-item" href="#projeto9">Shopping - Clique Financeiro</a></li>
+                                <li><a class="dropdown-item" href="#projeto10">Parque - Clique Financeiro</a></li>
+                                <li><a class="dropdown-item" href="#projeto11">Personagens - Clique Financeiro</a></li>
+                            </ul>
+                        </li>
                         <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
                     </ul>
                 </div>
@@ -123,7 +140,7 @@
             <h2 class="text-center mb-4" style="margin-top: -10px;">Sobre Mim</h2>
             <div class="row">
                     <div class="col-12 d-flex flex-column align-items-center">               
-                        <img src="src/FOTO/FOTO.png" class="img-fluid rounded mb-4" alt="Foto de Perfil">
+                        <img src="src/FOTO/FOTO.png" class="img-fluid rounded mb-4" alt="Foto de Perfil" style="max-width: 400px;">
                         <!-- Tabs Navigation -->
                         <ul class="nav nav-tabs mb-4 w-100" id="sobreTabs" role="tablist" style="font-size: 1.35rem; gap: 0; display: flex;">
                             <li class="nav-item flex-fill text-center" role="presentation">
@@ -139,21 +156,17 @@
                         <!-- Tabs Content -->
                     <div class="tab-content w-100" id="sobreTabsContent" style="max-width: 900px;">
                         <div class="tab-pane fade show active text-center" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
-                               <p class="text-center" style="font-size: 1.15rem;">
-                                  
+                               <p class="text-center" style="font-size: 1.15rem;">               
+                                    <p>Olá! O meu nome é Miguel António da Silva Neto, tenho 20 anos e resido no Porto. Sou um alguem que "respira" universo 3D, sempre foi uma área que cativou-me pela capacidade infinita de transformar imaginação em realidade visual.</p>
 
-<p>Olá! O meu nome é Miguel António da Silva Neto, tenho 20 anos e resido no Porto. Sou um alguem que "respira" universo 3D, sempre foi uma área que cativou-me pela capacidade infinita de transformar imaginação em realidade visual.</p>
-
-<p>O percuso com 3D teve Início com SketchUp: Onde encarei os principos da Tridimencionalidade altura,largura e profundidade.
-A Transição pelo 3ds Max: Que me permitiu explorar fluxos de trabalho mais complexos e profissionais pois já era uma ferramenta muito mais ultilizada no mercado de trabalho.</p>
-
-<p>No Blender foi onde que encontrei a minha "gem". pois por ser um programa gratuito e com a maior cominidade de criadores 3D, sempre tive muito suporte com este programa. Desde que adotei o Blender, tenho explorado muito do o seu potencial — da modelação e renderização ao sistema de geometry nodes tornando-o a ferramenta central de todos os meus projetos atuais.</p>
-
-<p>Hoje, combino a base académica adquirida ao longo dos anos com uma exploração contínua das novas fronteiras do 3D.</p> 
-
-<p>"Acredito que os softwares 3D são as ferramentas definitivas para materializar o impossível. O que começou como uma aprendizagem na escola, tornou-se a minha forma de ver o mundo."</p>
-
-
+                                    <p>O percuso com 3D teve Início com SketchUp: Onde encarei os principos da Tridimencionalidade altura,largura e profundidade.
+                                    A Transição pelo 3ds Max: Que me permitiu explorar fluxos de trabalho mais complexos e profissionais pois já era uma ferramenta muito mais ultilizada no mercado de trabalho.</p>
+                                    
+                                    <p>No Blender foi onde que encontrei a minha "gem". pois por ser um programa gratuito e com a maior cominidade de criadores 3D, sempre tive muito suporte com este programa. Desde que adotei o Blender, tenho explorado muito do o seu potencial — da modelação e renderização ao sistema de geometry nodes tornando-o a ferramenta central de todos os meus projetos atuais.</p>
+                                    
+                                    <p>Hoje, combino a base académica adquirida ao longo dos anos com uma exploração contínua das novas fronteiras do 3D.</p> 
+                                    
+                                    <p>"Acredito que os softwares 3D são as ferramentas definitivas para materializar o impossível. O que começou como uma aprendizagem na escola, tornou-se a minha forma de ver o mundo."</p>
                                </p>
                         </div>
                         <div class="tab-pane fade text-center" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
@@ -198,7 +211,7 @@ A Transição pelo 3ds Max: Que me permitiu explorar fluxos de trabalho mais com
             <div class="row">
 
                 <!-- Cartão 1 -->
-                <div class="col-12 mb-5">
+                <div class="col-12 mb-5" id="projeto1">
                     <div class="card h-100 text-center">
                         <img src="src/PROJETOS/01_Proj_Pabellon Mies van der Rohe/01_Proj_Pabellon Mies van der Rohe_03.jpg" 
                         class="card-img-top" style="height: 700px; object-fit: cover; cursor: pointer;" alt="..." 
@@ -227,7 +240,7 @@ A Transição pelo 3ds Max: Que me permitiu explorar fluxos de trabalho mais com
                 </div>
 
                 <!-- Cartão 2 -->
-                <div class="col-12 mb-5">
+                <div class="col-12 mb-5" id="projeto2">
                     <div class="card h-100 text-center">
                         <img src="src/PROJETOS/02_Proj_ModernHouse/02_Proj_ModernHouse_03.jpg" 
                         class="card-img-top" style="height: 700px; object-fit: cover; cursor: pointer;" alt="..." 
@@ -256,7 +269,7 @@ A Transição pelo 3ds Max: Que me permitiu explorar fluxos de trabalho mais com
                 </div>
 
                 <!-- Cartão 3 -->
-                <div class="col-12 mb-5">
+                <div class="col-12 mb-5" id="projeto3">
                     <div class="card h-100 text-center">
                         <img src="src/PROJETOS/03_Proj_Hypertrain/03_Proj_Hypertrain_02.png" class="card-img-top" style="height: 700px; object-fit: cover; cursor: pointer;" 
                         alt="..." data-bs-toggle="collapse" data-bs-target="#collapseProj3" aria-expanded="false" aria-controls="collapseProj3">
@@ -301,7 +314,7 @@ A Transição pelo 3ds Max: Que me permitiu explorar fluxos de trabalho mais com
                 </div>
 
                 <!-- Cartão 4 -->
-                <div class="col-12 mb-5">
+                <div class="col-12 mb-5" id="projeto4">
                     <div class="card h-100 text-center">
                         <img src="src/PROJETOS/04_Proj_The last train/04_Proj_The last train_MainImage.png" class="card-img-top" style="height: 700px; object-fit: cover; cursor: pointer;" alt="..." data-bs-toggle="collapse" data-bs-target="#collapseProj4" aria-expanded="false" aria-controls="collapseProj4">
                         <div class="card-body">
@@ -338,12 +351,12 @@ A Transição pelo 3ds Max: Que me permitiu explorar fluxos de trabalho mais com
 
                                     <div class="col-md-4 mb-3">
                                         <img src="src/PROJETOS/04_Proj_The last train/04_Proj_The last train_GeneralBot/04_Proj_The last train_GeneralBot_Wireframe.png" class="img-fluid mb-2" alt="Miniatura 1" data-bs-toggle="modal" 
-                                        data-bs-target="#modalProj04Img1" style="cursor:pointer;">
+                                        data-bs-target="#modalProj4Img1" style="cursor:pointer;">
                                     </div>
 
                                     <div class="col-md-4 mb-3">
                                         <img src="src/PROJETOS/04_Proj_The last train/04_Proj_The last train_237Bot/04_Proj_The last train_237Bot_Wireframe.png" class="img-fluid mb-2" alt="Miniatura 1" data-bs-toggle="modal"
-                                        data-bs-target="#modalProj04Img2" style="cursor:pointer;">
+                                        data-bs-target="#modalProj4Img2" style="cursor:pointer;">
                                     </div>
 
                                     
@@ -368,7 +381,7 @@ A Transição pelo 3ds Max: Que me permitiu explorar fluxos de trabalho mais com
                 </div>
 
                 <!-- Cartão 5 -->
-                <div class="col-12 mb-5">
+                <div class="col-12 mb-5" id="projeto5">
                     <div class="card h-100 text-center">
                         <img src="src/PROJETOS/05_Proj_KendirStudios_CliqueFinanceiro_Bank/05_Proj_KendirStudios_CliqueFinanceiro_INT_Bank_Rendered.png" class="card-img-top" style="height: 700px; object-fit: cover; cursor: pointer;" alt="..." data-bs-toggle="collapse" data-bs-target="#collapseProj5" aria-expanded="false" aria-controls="collapseProj5">
                         <div class="card-body">
@@ -377,31 +390,40 @@ A Transição pelo 3ds Max: Que me permitiu explorar fluxos de trabalho mais com
                                 <p class="card-text">Este projeto faz parte de uma série de criações 3D para o jogo "Clique Financeiro", um banco fictício criado para fins educacionais.</p>
                                 <div class="row mt-3">
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/PROJETOS/05_Proj_KendirStudios_CliqueFinanceiro_Bank/05_Proj_KendirStudios_CliqueFinanceiro_INT_Bank_Ao.png" class="img-fluid mb-2" alt="Miniatura 1" data-bs-toggle="modal" data-bs-target="#modalProj5Img1" style="cursor:pointer;">
+                                        <img src="src/PROJETOS/05_Proj_KendirStudios_CliqueFinanceiro_Bank/05_Proj_KendirStudios_CliqueFinanceiro_INT_Bank_Ao.png" class="img-fluid mb-2" alt="Miniatura 1">
+                                        <p class="small project-mini-desc">Interior do Banco - Ambient Occlusion</p>
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/PROJETOS/05_Proj_KendirStudios_CliqueFinanceiro_Bank/05_Proj_KendirStudios_CliqueFinanceiro_INT_Bank_Normal .png" class="img-fluid mb-2" alt="Miniatura 2" data-bs-toggle="modal" data-bs-target="#modalProj5Img2" style="cursor:pointer;">
+                                        <img src="src/PROJETOS/05_Proj_KendirStudios_CliqueFinanceiro_Bank/05_Proj_KendirStudios_CliqueFinanceiro_INT_Bank_Normal .png" class="img-fluid mb-2" alt="Miniatura 2">
+                                        <p class="small project-mini-desc">Interior do Banco - Normal Map</p>
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/PROJETOS/05_Proj_KendirStudios_CliqueFinanceiro_Bank/05_Proj_KendirStudios_CliqueFinanceiro_INT_Bank_Wireframe.png" class="img-fluid mb-2" alt="Miniatura 3" data-bs-toggle="modal" data-bs-target="#modalProj5Img3" style="cursor:pointer;">
+                                        <img src="src/PROJETOS/05_Proj_KendirStudios_CliqueFinanceiro_Bank/05_Proj_KendirStudios_CliqueFinanceiro_INT_Bank_Wireframe.png" class="img-fluid mb-2" alt="Miniatura 3">
+                                        <p class="small project-mini-desc">Interior do Banco - Wireframe</p>
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/PROJETOS/05_Proj_KendirStudios_CliqueFinanceiro_Bank/05_Proj_KendirStudios_CliqueFinanceiro_EXT_Bank_2ºModel_Ao.png" class="img-fluid mb-2" alt="Miniatura 3" data-bs-toggle="modal" data-bs-target="#modalProj5Img3" style="cursor:pointer;">
+                                        <img src="src/PROJETOS/05_Proj_KendirStudios_CliqueFinanceiro_Bank/05_Proj_KendirStudios_CliqueFinanceiro_EXT_Bank_2ºModel_Ao.png" class="img-fluid mb-2" alt="Miniatura 3">
+                                        <p class="small project-mini-desc">Exterior do Banco - Ambient Occlusion</p>
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/PROJETOS/05_Proj_KendirStudios_CliqueFinanceiro_Bank/05_Proj_KendirStudios_CliqueFinanceiro_EXT_Bank_2ºModel_Normal.png" class="img-fluid mb-2" alt="Miniatura 3" data-bs-toggle="modal" data-bs-target="#modalProj5Img3" style="cursor:pointer;">
+                                        <img src="src/PROJETOS/05_Proj_KendirStudios_CliqueFinanceiro_Bank/05_Proj_KendirStudios_CliqueFinanceiro_EXT_Bank_2ºModel_Normal.png" class="img-fluid mb-2" alt="Miniatura 3">
+                                        <p class="small project-mini-desc">Exterior do Banco - Normal Map</p>
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/PROJETOS/05_Proj_KendirStudios_CliqueFinanceiro_Bank/05_Proj_KendirStudios_CliqueFinanceiro_EXT_Bank_2ºModel_Rendered.png" class="img-fluid mb-2" alt="Miniatura 3" data-bs-toggle="modal" data-bs-target="#modalProj5Img3" style="cursor:pointer;">
+                                        <img src="src/PROJETOS/05_Proj_KendirStudios_CliqueFinanceiro_Bank/05_Proj_KendirStudios_CliqueFinanceiro_EXT_Bank_2ºModel_Rendered.png" class="img-fluid mb-2" alt="Miniatura 3">
+                                        <p class="small project-mini-desc">Exterior do Banco - Renderizado</p>
                                     </div>
                                      <div class="col-md-4 mb-3">
-                                        <img src="src/PROJETOS/05_Proj_KendirStudios_CliqueFinanceiro_Bank/05_Proj_KendirStudios_CliqueFinanceiro_INT_Bank_Ao.png" class="img-fluid mb-2" alt="Miniatura 3" data-bs-toggle="modal" data-bs-target="#modalProj5Img3" style="cursor:pointer;">
+                                        <img src="src/PROJETOS/05_Proj_KendirStudios_CliqueFinanceiro_Bank/05_Proj_KendirStudios_CliqueFinanceiro_INT_Bank_Ao.png" class="img-fluid mb-2" alt="Miniatura 3">
+                                        <p class="small project-mini-desc">Menu Principal - Banco Ambient Occlusion</p>
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/PROJETOS/05_Proj_KendirStudios_CliqueFinanceiro_Bank/05_Proj_KendirStudios_CliqueFinanceiro_MainMenu_Bank_Normal.png" class="img-fluid mb-2" alt="Miniatura 3" data-bs-toggle="modal" data-bs-target="#modalProj5Img3" style="cursor:pointer;">
+                                        <img src="src/PROJETOS/05_Proj_KendirStudios_CliqueFinanceiro_Bank/05_Proj_KendirStudios_CliqueFinanceiro_MainMenu_Bank_Normal.png" class="img-fluid mb-2" alt="Miniatura 3">
+                                        <p class="small project-mini-desc">Menu Principal - Banco Normal Map</p>
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/PROJETOS/05_Proj_KendirStudios_CliqueFinanceiro_Bank/05_Proj_KendirStudios_CliqueFinanceiro_MainMenu_Bank_Rendered.png" class="img-fluid mb-2" alt="Miniatura 3" data-bs-toggle="modal" data-bs-target="#modalProj5Img3" style="cursor:pointer;">
+                                        <img src="src/PROJETOS/05_Proj_KendirStudios_CliqueFinanceiro_Bank/05_Proj_KendirStudios_CliqueFinanceiro_MainMenu_Bank_Rendered.png" class="img-fluid mb-2" alt="Miniatura 3">
+                                        <p class="small project-mini-desc">Menu Principal - Banco Renderizado</p>
                                     </div>
                                 </div>
                             </div>
@@ -413,7 +435,7 @@ A Transição pelo 3ds Max: Que me permitiu explorar fluxos de trabalho mais com
         </div>
 
          <!-- Cartão 6 -->
-                <div class="col-12 mb-5">
+                <div class="col-12 mb-5" id="projeto6">
                     <div class="card h-100 text-center">
                         <img src="src/PROJETOS/06_Proj_KendirStudios_CliqueFinanceiro_House/06_Proj_KendirStudios_CliqueFinanceiro_INT_House_Rendered.png" class="card-img-top" style="height: 700px; object-fit: cover; cursor: pointer;" alt="..." data-bs-toggle="collapse" data-bs-target="#collapseProj6" aria-expanded="false" aria-controls="collapseProj6">
                         <div class="card-body">
@@ -422,13 +444,16 @@ A Transição pelo 3ds Max: Que me permitiu explorar fluxos de trabalho mais com
                                 <p class="card-text">Este projeto faz parte de uma série de criações 3D para o jogo "Clique Financeiro", apresentando o quarto do jogador no jogo.</p>
                                 <div class="row mt-3">
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/PROJETOS/06_Proj_KendirStudios_CliqueFinanceiro_House/06_Proj_KendirStudios_CliqueFinanceiro_INT_House_Ao.png" class="img-fluid mb-2" alt="Miniatura 1" data-bs-toggle="modal" data-bs-target="#modalProj6Img1" style="cursor:pointer;">
+                                        <img src="src/PROJETOS/06_Proj_KendirStudios_CliqueFinanceiro_House/06_Proj_KendirStudios_CliqueFinanceiro_INT_House_Ao.png" class="img-fluid mb-2" alt="Miniatura 1">
+                                        <p class="small project-mini-desc">Interior da Casa - Ambient Occlusion</p>
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/PROJETOS/06_Proj_KendirStudios_CliqueFinanceiro_House/06_Proj_KendirStudios_CliqueFinanceiro_INT_House_Normal.png" class="img-fluid mb-2" alt="Miniatura 2" data-bs-toggle="modal" data-bs-target="#modalProj6Img2" style="cursor:pointer;">
+                                        <img src="src/PROJETOS/06_Proj_KendirStudios_CliqueFinanceiro_House/06_Proj_KendirStudios_CliqueFinanceiro_INT_House_Normal.png" class="img-fluid mb-2" alt="Miniatura 2">
+                                        <p class="small project-mini-desc">Interior da Casa - Normal Map</p>
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/PROJETOS/06_Proj_KendirStudios_CliqueFinanceiro_House/06_Proj_KendirStudios_CliqueFinanceiro_INT_House_Wireframe.png" class="img-fluid mb-2" alt="Miniatura 3" data-bs-toggle="modal" data-bs-target="#modalProj6Img3" style="cursor:pointer;">
+                                        <img src="src/PROJETOS/06_Proj_KendirStudios_CliqueFinanceiro_House/06_Proj_KendirStudios_CliqueFinanceiro_INT_House_Wireframe.png" class="img-fluid mb-2" alt="Miniatura 3">
+                                        <p class="small project-mini-desc">Interior da Casa - Wireframe</p>
                                     </div>
                                 </div>
                             </div>
@@ -440,7 +465,7 @@ A Transição pelo 3ds Max: Que me permitiu explorar fluxos de trabalho mais com
         </div>
 
          <!-- Cartão 7 -->
-                <div class="col-12 mb-5">
+                <div class="col-12 mb-5" id="projeto7">
                     <div class="card h-100 text-center">
                         <img src="src/PROJETOS/07_Proj_KendirStudios_CliqueFinanceiro_Library/05_Proj_KendirStudios_CliqueFinanceiro_INT_Library_Rendered.png" class="card-img-top" style="height: 700px; object-fit: cover; cursor: pointer;" alt="..." data-bs-toggle="collapse" data-bs-target="#collapseProj7" aria-expanded="false" aria-controls="collapseProj7">
                         <div class="card-body">
@@ -449,22 +474,28 @@ A Transição pelo 3ds Max: Que me permitiu explorar fluxos de trabalho mais com
                                 <p class="card-text">Este projeto faz parte de uma série de criações 3D para o jogo "Clique Financeiro", a biblioteca do jogador no jogo.</p>
                                 <div class="row mt-3">
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/PROJETOS/07_Proj_KendirStudios_CliqueFinanceiro_Library/05_Proj_KendirStudios_CliqueFinanceiro_INT_Library_Ao.png" class="img-fluid mb-2" alt="Miniatura 1" data-bs-toggle="modal" data-bs-target="#modalProj7Img1" style="cursor:pointer;">
+                                        <img src="src/PROJETOS/07_Proj_KendirStudios_CliqueFinanceiro_Library/05_Proj_KendirStudios_CliqueFinanceiro_INT_Library_Ao.png" class="img-fluid mb-2" alt="Miniatura 1">
+                                        <p class="small project-mini-desc">Interior da Biblioteca - Ambient Occlusion</p>
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/PROJETOS/07_Proj_KendirStudios_CliqueFinanceiro_Library/05_Proj_KendirStudios_CliqueFinanceiro_INT_Library_Normal.png" class="img-fluid mb-2" alt="Miniatura 2" data-bs-toggle="modal" data-bs-target="#modalProj7Img2" style="cursor:pointer;">
+                                        <img src="src/PROJETOS/07_Proj_KendirStudios_CliqueFinanceiro_Library/05_Proj_KendirStudios_CliqueFinanceiro_INT_Library_Normal.png" class="img-fluid mb-2" alt="Miniatura 2">
+                                        <p class="small project-mini-desc">Interior da Biblioteca - Normal Map</p>
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/PROJETOS/07_Proj_KendirStudios_CliqueFinanceiro_Library/05_Proj_KendirStudios_CliqueFinanceiro_INT_Library_Rendered.png" class="img-fluid mb-2" alt="Miniatura 3" data-bs-toggle="modal" data-bs-target="#modalProj7Img3" style="cursor:pointer;">
+                                        <img src="src/PROJETOS/07_Proj_KendirStudios_CliqueFinanceiro_Library/05_Proj_KendirStudios_CliqueFinanceiro_INT_Library_Rendered.png" class="img-fluid mb-2" alt="Miniatura 3">
+                                        <p class="small project-mini-desc">Interior da Biblioteca - Renderizado</p>
                                     </div>
                                      <div class="col-md-4 mb-3">
-                                        <img src="src/PROJETOS/07_Proj_KendirStudios_CliqueFinanceiro_Library/05_Proj_KendirStudios_CliqueFinanceiro_Library_Ao.png" class="img-fluid mb-2" alt="Miniatura 1" data-bs-toggle="modal" data-bs-target="#modalProj7Img1" style="cursor:pointer;">
+                                        <img src="src/PROJETOS/07_Proj_KendirStudios_CliqueFinanceiro_Library/05_Proj_KendirStudios_CliqueFinanceiro_Library_Ao.png" class="img-fluid mb-2" alt="Miniatura 1">
+                                        <p class="small project-mini-desc">Biblioteca - Ambient Occlusion</p>
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/PROJETOS/07_Proj_KendirStudios_CliqueFinanceiro_Library/05_Proj_KendirStudios_CliqueFinanceiro_Library_Normal.png" class="img-fluid mb-2" alt="Miniatura 2" data-bs-toggle="modal" data-bs-target="#modalProj7Img2" style="cursor:pointer;">
+                                        <img src="src/PROJETOS/07_Proj_KendirStudios_CliqueFinanceiro_Library/05_Proj_KendirStudios_CliqueFinanceiro_Library_Normal.png" class="img-fluid mb-2" alt="Miniatura 2">
+                                        <p class="small project-mini-desc">Biblioteca - Normal Map</p>
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/PROJETOS/07_Proj_KendirStudios_CliqueFinanceiro_Library/05_Proj_KendirStudios_CliqueFinanceiro_Library_Rendered.png" class="img-fluid mb-2" alt="Miniatura 3" data-bs-toggle="modal" data-bs-target="#modalProj7Img3" style="cursor:pointer;">
+                                        <img src="src/PROJETOS/07_Proj_KendirStudios_CliqueFinanceiro_Library/05_Proj_KendirStudios_CliqueFinanceiro_Library_Rendered.png" class="img-fluid mb-2" alt="Miniatura 3">
+                                        <p class="small project-mini-desc">Biblioteca - Renderizado</p>
                                     </div>
                                 </div>
                             </div>
@@ -476,7 +507,7 @@ A Transição pelo 3ds Max: Que me permitiu explorar fluxos de trabalho mais com
         </div>
 
          <!-- Cartão 8 -->
-                <div class="col-12 mb-5">
+                <div class="col-12 mb-5" id="projeto8">
                     <div class="card h-100 text-center">
                         <img src="src/PROJETOS/08_Proj_KendirStudios_CliqueFinanceiro_School/05_Proj_KendirStudios_CliqueFinanceiro_INT_School_Rendered.png" class="card-img-top" style="height: 700px; object-fit: cover; cursor: pointer;" alt="..." data-bs-toggle="collapse" data-bs-target="#collapseProj8" aria-expanded="false" aria-controls="collapseProj8">
                         <div class="card-body">
@@ -485,13 +516,16 @@ A Transição pelo 3ds Max: Que me permitiu explorar fluxos de trabalho mais com
                                 <p class="card-text">Este projeto faz parte de uma série de criações 3D para o jogo "Clique Financeiro", a escola do jogador no jogo.</p>
                                 <div class="row mt-3">
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/PROJETOS/08_Proj_KendirStudios_CliqueFinanceiro_School/05_Proj_KendirStudios_CliqueFinanceiro_INT_School_Ao.png" class="img-fluid mb-2" alt="Miniatura 1" data-bs-toggle="modal" data-bs-target="#modalProj8Img1" style="cursor:pointer;">
+                                        <img src="src/PROJETOS/08_Proj_KendirStudios_CliqueFinanceiro_School/05_Proj_KendirStudios_CliqueFinanceiro_INT_School_Ao.png" class="img-fluid mb-2" alt="Miniatura 1">
+                                        <p class="small project-mini-desc">Interior da Escola - Ambient Occlusion</p>
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/PROJETOS/08_Proj_KendirStudios_CliqueFinanceiro_School/05_Proj_KendirStudios_CliqueFinanceiro_INT_School_Normal.png" class="img-fluid mb-2" alt="Miniatura 2" data-bs-toggle="modal" data-bs-target="#modalProj8Img2" style="cursor:pointer;">
+                                        <img src="src/PROJETOS/08_Proj_KendirStudios_CliqueFinanceiro_School/05_Proj_KendirStudios_CliqueFinanceiro_INT_School_Normal.png" class="img-fluid mb-2" alt="Miniatura 2">
+                                        <p class="small project-mini-desc">Interior da Escola - Normal Map</p>
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/PROJETOS/08_Proj_KendirStudios_CliqueFinanceiro_School/05_Proj_KendirStudios_CliqueFinanceiro_INT_School_Wireframe.png" class="img-fluid mb-2" alt="Miniatura 3" data-bs-toggle="modal" data-bs-target="#modalProj8Img3" style="cursor:pointer;">
+                                        <img src="src/PROJETOS/08_Proj_KendirStudios_CliqueFinanceiro_School/05_Proj_KendirStudios_CliqueFinanceiro_INT_School_Wireframe.png" class="img-fluid mb-2" alt="Miniatura 3">
+                                        <p class="small project-mini-desc">Interior da Escola - Wireframe</p>
                                     </div>
                                 </div>
                             </div>
@@ -503,7 +537,7 @@ A Transição pelo 3ds Max: Que me permitiu explorar fluxos de trabalho mais com
         </div>
 
          <!-- Cartão 9 -->
-                <div class="col-12 mb-5">
+                <div class="col-12 mb-5" id="projeto9">
                     <div class="card h-100 text-center">
                         <img src="src/PROJETOS/09_Proj_KendirStudios_CliqueFinanceiro_Shopping/05_Proj_KendirStudios_CliqueFinanceiro_INT_Shopping_Rendered.png" class="card-img-top" style="height: 700px; object-fit: cover; cursor: pointer;" alt="..." data-bs-toggle="collapse" data-bs-target="#collapseProj9" aria-expanded="false" aria-controls="collapseProj9">
                         <div class="card-body">
@@ -512,27 +546,33 @@ A Transição pelo 3ds Max: Que me permitiu explorar fluxos de trabalho mais com
                                 <p class="card-text">Este projeto faz parte de uma série de criações 3D para o jogo "Clique Financeiro", Shopping center do jogador no jogo.</p>
                                 <div class="row mt-3">
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/PROJETOS/09_Proj_KendirStudios_CliqueFinanceiro_Shopping/05_Proj_KendirStudios_CliqueFinanceiro_INT_Shopping_Ao.png" class="img-fluid mb-2" alt="Miniatura 1" data-bs-toggle="modal" data-bs-target="#modalProj9Img1" style="cursor:pointer;">
+                                        <img src="src/PROJETOS/09_Proj_KendirStudios_CliqueFinanceiro_Shopping/05_Proj_KendirStudios_CliqueFinanceiro_INT_Shopping_Ao.png" class="img-fluid mb-2" alt="Miniatura 1">
+                                        <p class="small project-mini-desc">Interior do Shopping - Ambient Occlusion</p>
                                     </div>
 
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/PROJETOS/09_Proj_KendirStudios_CliqueFinanceiro_Shopping/05_Proj_KendirStudios_CliqueFinanceiro_INT_Shopping_Normal.png" class="img-fluid mb-2" alt="Miniatura 2" data-bs-toggle="modal" data-bs-target="#modalProj9Img2" style="cursor:pointer;">
+                                        <img src="src/PROJETOS/09_Proj_KendirStudios_CliqueFinanceiro_Shopping/05_Proj_KendirStudios_CliqueFinanceiro_INT_Shopping_Normal.png" class="img-fluid mb-2" alt="Miniatura 2">
+                                        <p class="small project-mini-desc">Interior do Shopping - Normal Map</p>
                                     </div>
                                     
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/PROJETOS/09_Proj_KendirStudios_CliqueFinanceiro_Shopping/05_Proj_KendirStudios_CliqueFinanceiro_INT_Shopping_Wireframe.png" class="img-fluid mb-2" alt="Miniatura 3" data-bs-toggle="modal" data-bs-target="#modalProj9Img3" style="cursor:pointer;">
+                                        <img src="src/PROJETOS/09_Proj_KendirStudios_CliqueFinanceiro_Shopping/05_Proj_KendirStudios_CliqueFinanceiro_INT_Shopping_Wireframe.png" class="img-fluid mb-2" alt="Miniatura 3">
+                                        <p class="small project-mini-desc">Interior do Shopping - Wireframe</p>
                                     </div>
 
                                      <div class="col-md-4 mb-3">
-                                        <img src="src/PROJETOS/09_Proj_KendirStudios_CliqueFinanceiro_Shopping/05_Proj_KendirStudios_CliqueFinanceiro_EXT_Shopping_Ao.png" class="img-fluid mb-2" alt="Miniatura 3" data-bs-toggle="modal" data-bs-target="#modalProj9Img3" style="cursor:pointer;">
+                                        <img src="src/PROJETOS/09_Proj_KendirStudios_CliqueFinanceiro_Shopping/05_Proj_KendirStudios_CliqueFinanceiro_EXT_Shopping_Ao.png" class="img-fluid mb-2" alt="Miniatura 3">
+                                        <p class="small project-mini-desc">Exterior do Shopping - Ambient Occlusion</p>
                                     </div>
 
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/PROJETOS/09_Proj_KendirStudios_CliqueFinanceiro_Shopping/05_Proj_KendirStudios_CliqueFinanceiro_EXT_Shopping_Nomal.png" class="img-fluid mb-2" alt="Miniatura 3" data-bs-toggle="modal" data-bs-target="#modalProj9Img3" style="cursor:pointer;">
+                                        <img src="src/PROJETOS/09_Proj_KendirStudios_CliqueFinanceiro_Shopping/05_Proj_KendirStudios_CliqueFinanceiro_EXT_Shopping_Nomal.png" class="img-fluid mb-2" alt="Miniatura 3">
+                                        <p class="small project-mini-desc">Exterior do Shopping - Normal Map</p>
                                     </div>
 
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/PROJETOS/09_Proj_KendirStudios_CliqueFinanceiro_Shopping/05_Proj_KendirStudios_CliqueFinanceiro_EXT_Shopping_Rendered.png" class="img-fluid mb-2" alt="Miniatura 3" data-bs-toggle="modal" data-bs-target="#modalProj9Img3" style="cursor:pointer;">
+                                        <img src="src/PROJETOS/09_Proj_KendirStudios_CliqueFinanceiro_Shopping/05_Proj_KendirStudios_CliqueFinanceiro_EXT_Shopping_Rendered.png" class="img-fluid mb-2" alt="Miniatura 3">
+                                        <p class="small project-mini-desc">Exterior do Shopping - Renderizado</p>
                                     </div>
                                 </div> 
                                     
@@ -545,7 +585,7 @@ A Transição pelo 3ds Max: Que me permitiu explorar fluxos de trabalho mais com
         </div>
 
          <!-- Cartão 10-->
-                <div class="col-12 mb-5">
+                <div class="col-12 mb-5" id="projeto10">
                     <div class="card h-100 text-center">
                         <img src="src/PROJETOS/10_Proj_KendirStudios_CliqueFinanceiro_Park_Verão/05_Proj_KendirStudios_CliqueFinanceiro_ParkMainImage.png" class="card-img-top" style="height: 700px; object-fit: cover; cursor: pointer;" alt="..." data-bs-toggle="collapse" data-bs-target="#collapseProj10" aria-expanded="false" aria-controls="collapseProj10">
                         <div class="card-body">
@@ -554,40 +594,52 @@ A Transição pelo 3ds Max: Que me permitiu explorar fluxos de trabalho mais com
                                 <p class="card-text">Este projeto faz parte de uma série de criações 3D para o jogo "Clique Financeiro", o parque central do jogador no jogo.</p>
                                 <div class="row mt-3">
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/PROJETOS/10_Proj_KendirStudios_CliqueFinanceiro_Park_Verão/10_Proj_KendirStudios_CliqueFinanceiro_Park_Verão_Ao.png" class="img-fluid mb-2" alt="Miniatura 1" data-bs-toggle="modal" data-bs-target="#modalProj10Img1" style="cursor:pointer;">
+                                        <img src="src/PROJETOS/10_Proj_KendirStudios_CliqueFinanceiro_Park_Verão/10_Proj_KendirStudios_CliqueFinanceiro_Park_Verão_Ao.png" class="img-fluid mb-2" alt="Miniatura 1">
+                                        <p class="small project-mini-desc">Parque Verão - Ambient Occlusion</p>
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/PROJETOS/10_Proj_KendirStudios_CliqueFinanceiro_Park_Verão/10_Proj_KendirStudios_CliqueFinanceiro_Park_Verão_Normal.png" class="img-fluid mb-2" alt="Miniatura 2" data-bs-toggle="modal" data-bs-target="#modalProj10Img2" style="cursor:pointer;">
+                                        <img src="src/PROJETOS/10_Proj_KendirStudios_CliqueFinanceiro_Park_Verão/10_Proj_KendirStudios_CliqueFinanceiro_Park_Verão_Normal.png" class="img-fluid mb-2" alt="Miniatura 2">
+                                        <p class="small project-mini-desc">Parque Verão - Normal Map</p>
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/PROJETOS/10_Proj_KendirStudios_CliqueFinanceiro_Park_Verão/10_Proj_KendirStudios_CliqueFinanceiro_Park_Verão_Wireframe.png" class="img-fluid mb-2" alt="Miniatura 3" data-bs-toggle="modal" data-bs-target="#modalProj10Img3" style="cursor:pointer;">
+                                        <img src="src/PROJETOS/10_Proj_KendirStudios_CliqueFinanceiro_Park_Verão/10_Proj_KendirStudios_CliqueFinanceiro_Park_Verão_Wireframe.png" class="img-fluid mb-2" alt="Miniatura 3">
+                                        <p class="small project-mini-desc">Parque Verão - Wireframe</p>
                                     </div>
                                      <div class="col-md-4 mb-3">
-                                        <img src="src/PROJETOS/10_Proj_KendirStudios_CliqueFinanceiro_Park_Inverno/10_Proj_KendirStudios_CliqueFinanceiro_Park_Inverno_Ao.png" class="img-fluid mb-2" alt="Miniatura 1" data-bs-toggle="modal" data-bs-target="#modalProj10Img1" style="cursor:pointer;">
+                                        <img src="src/PROJETOS/10_Proj_KendirStudios_CliqueFinanceiro_Park_Inverno/10_Proj_KendirStudios_CliqueFinanceiro_Park_Inverno_Ao.png" class="img-fluid mb-2" alt="Miniatura 1">
+                                        <p class="small project-mini-desc">Parque Inverno - Ambient Occlusion</p>
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/PROJETOS/10_Proj_KendirStudios_CliqueFinanceiro_Park_Inverno/10_Proj_KendirStudios_CliqueFinanceiro_Park_Inverno_Normal.png" class="img-fluid mb-2" alt="Miniatura 2" data-bs-toggle="modal" data-bs-target="#modalProj10Img2" style="cursor:pointer;">
+                                        <img src="src/PROJETOS/10_Proj_KendirStudios_CliqueFinanceiro_Park_Inverno/10_Proj_KendirStudios_CliqueFinanceiro_Park_Inverno_Normal.png" class="img-fluid mb-2" alt="Miniatura 2">
+                                        <p class="small project-mini-desc">Parque Inverno - Normal Map</p>
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/PROJETOS/10_Proj_KendirStudios_CliqueFinanceiro_Park_Inverno/10_Proj_KendirStudios_CliqueFinanceiro_Park_Inverno_Wireframe.png" class="img-fluid mb-2" alt="Miniatura 3" data-bs-toggle="modal" data-bs-target="#modalProj10Img3" style="cursor:pointer;">
+                                        <img src="src/PROJETOS/10_Proj_KendirStudios_CliqueFinanceiro_Park_Inverno/10_Proj_KendirStudios_CliqueFinanceiro_Park_Inverno_Wireframe.png" class="img-fluid mb-2" alt="Miniatura 3">
+                                        <p class="small project-mini-desc">Parque Inverno - Wireframe</p>
                                     </div>
                                      <div class="col-md-4 mb-3">
-                                        <img src="src/PROJETOS/10_Proj_KendirStudios_CliqueFinanceiro_Park_Outono/10_Proj_KendirStudios_CliqueFinanceiro_Park_Outono_Ao.png" class="img-fluid mb-2" alt="Miniatura 1" data-bs-toggle="modal" data-bs-target="#modalProj10Img1" style="cursor:pointer;">
+                                        <img src="src/PROJETOS/10_Proj_KendirStudios_CliqueFinanceiro_Park_Outono/10_Proj_KendirStudios_CliqueFinanceiro_Park_Outono_Ao.png" class="img-fluid mb-2" alt="Miniatura 1">
+                                        <p class="small project-mini-desc">Parque Outono - Ambient Occlusion</p>
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/PROJETOS/10_Proj_KendirStudios_CliqueFinanceiro_Park_Outono/10_Proj_KendirStudios_CliqueFinanceiro_Park_Outono_Normal.png" class="img-fluid mb-2" alt="Miniatura 2" data-bs-toggle="modal" data-bs-target="#modalProj10Img2" style="cursor:pointer;">
+                                        <img src="src/PROJETOS/10_Proj_KendirStudios_CliqueFinanceiro_Park_Outono/10_Proj_KendirStudios_CliqueFinanceiro_Park_Outono_Normal.png" class="img-fluid mb-2" alt="Miniatura 2">
+                                        <p class="small project-mini-desc">Parque Outono - Normal Map</p>
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/PROJETOS/10_Proj_KendirStudios_CliqueFinanceiro_Park_Outono/10_Proj_KendirStudios_CliqueFinanceiro_Park_Outono_Wireframe.png" class="img-fluid mb-2" alt="Miniatura 3" data-bs-toggle="modal" data-bs-target="#modalProj10Img3" style="cursor:pointer;">
+                                        <img src="src/PROJETOS/10_Proj_KendirStudios_CliqueFinanceiro_Park_Outono/10_Proj_KendirStudios_CliqueFinanceiro_Park_Outono_Wireframe.png" class="img-fluid mb-2" alt="Miniatura 3">
+                                        <p class="small project-mini-desc">Parque Outono - Wireframe</p>
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/PROJETOS/10_Proj_KendirStudios_CliqueFinanceiro_Park_Primavera/10_Proj_KendirStudios_CliqueFinanceiro_Park_Primavera_Rendered_Ao.png" class="img-fluid mb-2" alt="Miniatura 1" data-bs-toggle="modal" data-bs-target="#modalProj10Img1" style="cursor:pointer;">
+                                        <img src="src/PROJETOS/10_Proj_KendirStudios_CliqueFinanceiro_Park_Primavera/10_Proj_KendirStudios_CliqueFinanceiro_Park_Primavera_Rendered_Ao.png" class="img-fluid mb-2" alt="Miniatura 1">
+                                        <p class="small project-mini-desc">Parque Primavera - Ambient Occlusion</p>
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/PROJETOS/10_Proj_KendirStudios_CliqueFinanceiro_Park_Primavera/10_Proj_KendirStudios_CliqueFinanceiro_Park_Primavera_Normal.png" class="img-fluid mb-2" alt="Miniatura 2" data-bs-toggle="modal" data-bs-target="#modalProj10Img2" style="cursor:pointer;">
+                                        <img src="src/PROJETOS/10_Proj_KendirStudios_CliqueFinanceiro_Park_Primavera/10_Proj_KendirStudios_CliqueFinanceiro_Park_Primavera_Normal.png" class="img-fluid mb-2" alt="Miniatura 2">
+                                        <p class="small project-mini-desc">Parque Primavera - Normal Map</p>
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <img src="src/PROJETOS/10_Proj_KendirStudios_CliqueFinanceiro_Park_Primavera/10_Proj_KendirStudios_CliqueFinanceiro_Park_Primavera_Wireframe.png" class="img-fluid mb-2" alt="Miniatura 3" data-bs-toggle="modal" data-bs-target="#modalProj10Img3" style="cursor:pointer;">
+                                        <img src="src/PROJETOS/10_Proj_KendirStudios_CliqueFinanceiro_Park_Primavera/10_Proj_KendirStudios_CliqueFinanceiro_Park_Primavera_Wireframe.png" class="img-fluid mb-2" alt="Miniatura 3">
+                                        <p class="small project-mini-desc">Parque Primavera - Wireframe</p>
                                     </div>
                                 </div>
                             </div>
@@ -599,7 +651,7 @@ A Transição pelo 3ds Max: Que me permitiu explorar fluxos de trabalho mais com
         </div>
 
          <!-- Cartão 11-->
-                <div class="col-12 mb-5">
+                <div class="col-12 mb-5" id="projeto11">
                     <div class="card h-100 text-center">
                         <img src="src/PROJETOS/11_Proj_KendirStudios_CliqueFinanceiro_MaleCharacters/11_Proj_KendirStudios_CliqueFinanceiro_MaleCharacters_Rendered.png" class="card-img-top" style="height: 700px; object-fit: cover; cursor: pointer;" alt="..." data-bs-toggle="collapse" data-bs-target="#collapseProj11" aria-expanded="false" aria-controls="collapseProj11">
                         <div class="card-body">
@@ -885,395 +937,7 @@ A Transição pelo 3ds Max: Que me permitiu explorar fluxos de trabalho mais com
         </div>
     </div>
 
-  
 
-    <!-- Modal Projeto 5 Imagem 1 -->
-    <div class="modal fade" id="modalProj5Img1" tabindex="-1" aria-labelledby="modalProj5Img1Label" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
-            <div class="modal-content bg-dark text-white">
-                <div class="modal-body">
-                
-                    <div class="modal-text-sections">
-                        <div class="mb-3">
-                            <h5>Sobre o projeto</h5>
-                            <p>Descrição detalhada do projeto. (Exemplo: Este projeto explora a arquitetura moderna...)</p>
-                        </div>
-                        <hr class="bg-secondary w-50 mx-auto my-2">
-                        <div class="mb-3 text-start">
-                            <h5 class="text-start">Ferramentas usadas</h5>
-                            <p class="text-start">Blender, Photoshop, AutoCAD</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer border-0">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal Projeto 5 Imagem 2 -->
-    <div class="modal fade" id="modalProj5Img2" tabindex="-1" aria-labelledby="modalProj5Img2Label" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
-            <div class="modal-content bg-dark text-white">
-                <div class="modal-body">
-                
-                    <div class="modal-text-sections">
-                        <div class="mb-3">
-                            <h5>Sobre o projeto</h5>
-                            <p>Descrição detalhada do projeto. (Exemplo: Este projeto explora a arquitetura moderna...)</p>
-                        </div>
-                        <hr class="bg-secondary w-50 mx-auto my-2">
-                        <div class="mb-3 text-start">
-                            <h5 class="text-start">Ferramentas usadas</h5>
-                            <p class="text-start">Blender, Photoshop, AutoCAD</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer border-0">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal Projeto 5 Imagem 3 -->
-    <div class="modal fade" id="modalProj5Img3" tabindex="-1" aria-labelledby="modalProj5Img3Label" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
-            <div class="modal-content bg-dark text-white">
-                <div class="modal-body">
-                
-                    <div class="modal-text-sections">
-                        <div class="mb-3">
-                            <h5>Sobre o projeto</h5>
-                            <p>Descrição detalhada do projeto. (Exemplo: Este projeto explora a arquitetura moderna...)</p>
-                        </div>
-                        <hr class="bg-secondary w-50 mx-auto my-2">
-                        <div class="mb-3 text-start">
-                            <h5 class="text-start">Ferramentas usadas</h5>
-                            <p class="text-start">Blender, Photoshop, AutoCAD</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer border-0">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal Projeto 6 Imagem 1 -->
-    <div class="modal fade" id="modalProj6Img1" tabindex="-1" aria-labelledby="modalProj6Img1Label" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
-            <div class="modal-content bg-dark text-white">
-                <div class="modal-body">
-                    <div class="modal-text-sections">
-                        <div class="mb-3">
-                            <h5>Sobre o projeto</h5>
-                            <p>Descrição placeholder do projeto 6, imagem 1.</p>
-                        </div>
-                        <hr class="bg-secondary w-50 mx-auto my-2">
-                        <div class="mb-3 text-start">
-                            <h5 class="text-start">Ferramentas usadas</h5>
-                            <p class="text-start">Ferramentas placeholder.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer border-0">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal Projeto 6 Imagem 2 -->
-    <div class="modal fade" id="modalProj6Img2" tabindex="-1" aria-labelledby="modalProj6Img2Label" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
-            <div class="modal-content bg-dark text-white">
-                <div class="modal-body">
-                    <div class="modal-text-sections">
-                        <div class="mb-3">
-                            <h5>Sobre o projeto</h5>
-                            <p>Descrição placeholder do projeto 6, imagem 2.</p>
-                        </div>
-                        <hr class="bg-secondary w-50 mx-auto my-2">
-                        <div class="mb-3 text-start">
-                            <h5 class="text-start">Ferramentas usadas</h5>
-                            <p class="text-start">Ferramentas placeholder.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer border-0">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal Projeto 6 Imagem 3 -->
-    <div class="modal fade" id="modalProj6Img3" tabindex="-1" aria-labelledby="modalProj6Img3Label" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
-            <div class="modal-content bg-dark text-white">
-                <div class="modal-body">
-                    <div class="modal-text-sections">
-                        <div class="mb-3">
-                            <h5>Sobre o projeto</h5>
-                            <p>Descrição placeholder do projeto 6, imagem 3.</p>
-                        </div>
-                        <hr class="bg-secondary w-50 mx-auto my-2">
-                        <div class="mb-3 text-start">
-                            <h5 class="text-start">Ferramentas usadas</h5>
-                            <p class="text-start">Ferramentas placeholder.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer border-0">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal Projeto 7 Imagem 1 -->
-    <div class="modal fade" id="modalProj7Img1" tabindex="-1" aria-labelledby="modalProj7Img1Label" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
-            <div class="modal-content bg-dark text-white">
-                <div class="modal-body">
-                    <div class="modal-text-sections">
-                        <div class="mb-3">
-                            <h5>Sobre o projeto</h5>
-                            <p>Descrição placeholder do projeto 7, imagem 1.</p>
-                        </div>
-                        <hr class="bg-secondary w-50 mx-auto my-2">
-                        <div class="mb-3 text-start">
-                            <h5 class="text-start">Ferramentas usadas</h5>
-                            <p class="text-start">Ferramentas placeholder.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer border-0">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal Projeto 7 Imagem 2 -->
-    <div class="modal fade" id="modalProj7Img2" tabindex="-1" aria-labelledby="modalProj7Img2Label" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
-            <div class="modal-content bg-dark text-white">
-                <div class="modal-body">
-                    <div class="modal-text-sections">
-                        <div class="mb-3">
-                            <h5>Sobre o projeto</h5>
-                            <p>Descrição placeholder do projeto 7, imagem 2.</p>
-                        </div>
-                        <hr class="bg-secondary w-50 mx-auto my-2">
-                        <div class="mb-3 text-start">
-                            <h5 class="text-start">Ferramentas usadas</h5>
-                            <p class="text-start">Ferramentas placeholder.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer border-0">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal Projeto 7 Imagem 3 -->
-    <div class="modal fade" id="modalProj7Img3" tabindex="-1" aria-labelledby="modalProj7Img3Label" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
-            <div class="modal-content bg-dark text-white">
-                <div class="modal-body">
-                    <div class="modal-text-sections">
-                        <div class="mb-3">
-                            <h5>Sobre o projeto</h5>
-                            <p>Descrição placeholder do projeto 7, imagem 3.</p>
-                        </div>
-                        <hr class="bg-secondary w-50 mx-auto my-2">
-                        <div class="mb-3 text-start">
-                            <h5 class="text-start">Ferramentas usadas</h5>
-                            <p class="text-start">Ferramentas placeholder.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer border-0">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal Projeto 8 Imagem 1 -->
-    <div class="modal fade" id="modalProj8Img1" tabindex="-1" aria-labelledby="modalProj8Img1Label" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
-            <div class="modal-content bg-dark text-white">
-                <div class="modal-body">
-                    <div class="modal-text-sections">
-                        <div class="mb-3">
-                            <h5>Sobre o projeto</h5>
-                            <p>Descrição placeholder do projeto 8, imagem 1.</p>
-                        </div>
-                        <hr class="bg-secondary w-50 mx-auto my-2">
-                        <div class="mb-3 text-start">
-                            <h5 class="text-start">Ferramentas usadas</h5>
-                            <p class="text-start">Ferramentas placeholder.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer border-0">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal Projeto 8 Imagem 2 -->
-    <div class="modal fade" id="modalProj8Img2" tabindex="-1" aria-labelledby="modalProj8Img2Label" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
-            <div class="modal-content bg-dark text-white">
-                <div class="modal-body">
-                    <div class="modal-text-sections">
-                        <div class="mb-3">
-                            <h5>Sobre o projeto</h5>
-                            <p>Descrição placeholder do projeto 8, imagem 2.</p>
-                        </div>
-                        <hr class="bg-secondary w-50 mx-auto my-2">
-                        <div class="mb-3 text-start">
-                            <h5 class="text-start">Ferramentas usadas</h5>
-                            <p class="text-start">Ferramentas placeholder.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer border-0">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal Projeto 8 Imagem 3 -->
-    <div class="modal fade" id="modalProj8Img3" tabindex="-1" aria-labelledby="modalProj8Img3Label" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
-            <div class="modal-content bg-dark text-white">
-                <div class="modal-body">
-                    <div class="modal-text-sections">
-                        <div class="mb-3">
-                            <h5>Sobre o projeto</h5>
-                            <p>Descrição placeholder do projeto 8, imagem 3.</p>
-                        </div>
-                        <hr class="bg-secondary w-50 mx-auto my-2">
-                        <div class="mb-3 text-start">
-                            <h5 class="text-start">Ferramentas usadas</h5>
-                            <p class="text-start">Ferramentas placeholder.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer border-0">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal Projeto 9 Imagem 1 -->
-    <div class="modal fade" id="modalProj9Img1" tabindex="-1" aria-labelledby="modalProj9Img1Label" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
-            <div class="modal-content bg-dark text-white">
-                <div class="modal-body">
-                    <div class="modal-text-sections">
-                        <div class="mb-3">
-                            <h5>Sobre o projeto</h5>
-                            <p>Descrição placeholder do projeto 9, imagem 1.</p>
-                        </div>
-                        <hr class="bg-secondary w-50 mx-auto my-2">
-                        <div class="mb-3 text-start">
-                            <h5 class="text-start">Ferramentas usadas</h5>
-                            <p class="text-start">Ferramentas placeholder.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer border-0">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- Modal Projeto 10 Imagem 1 -->
-    <div class="modal fade" id="modalProj10Img1" tabindex="-1" aria-labelledby="modalProj10Img1Label" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
-            <div class="modal-content bg-dark text-white">
-                <div class="modal-body">
-                    <div class="modal-text-sections">
-                        <div class="mb-3">
-                            <h5>Sobre o projeto</h5>
-                            <p>Descrição placeholder do projeto 10, imagem 1.</p>
-                        </div>
-                        <hr class="bg-secondary w-50 mx-auto my-2">
-                        <div class="mb-3 text-start">
-                            <h5 class="text-start">Ferramentas usadas</h5>
-                            <p class="text-start">Ferramentas placeholder.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer border-0">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal Projeto 10 Imagem 2 -->
-    <div class="modal fade" id="modalProj10Img2" tabindex="-1" aria-labelledby="modalProj10Img2Label" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
-            <div class="modal-content bg-dark text-white">
-                <div class="modal-body">
-                    <div class="modal-text-sections">
-                        <div class="mb-3">
-                            <h5>Sobre o projeto</h5>
-                            <p>Descrição placeholder do projeto 10, imagem 2.</p>
-                        </div>
-                        <hr class="bg-secondary w-50 mx-auto my-2">
-                        <div class="mb-3 text-start">
-                            <h5 class="text-start">Ferramentas usadas</h5>
-                            <p class="text-start">Ferramentas placeholder.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer border-0">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal Projeto 10 Imagem 3 -->
-    <div class="modal fade" id="modalProj10Img3" tabindex="-1" aria-labelledby="modalProj10Img3Label" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
-            <div class="modal-content bg-dark text-white">
-                <div class="modal-body">
-                    <div class="modal-text-sections">
-                        <div class="mb-3">
-                            <h5>Sobre o projeto</h5>
-                            <p>Descrição placeholder do projeto 10, imagem 3.</p>
-                        </div>
-                        <hr class="bg-secondary w-50 mx-auto my-2">
-                        <div class="mb-3 text-start">
-                            <h5 class="text-start">Ferramentas usadas</h5>
-                            <p class="text-start">Ferramentas placeholder.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer border-0">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <!-- Modal Projeto 11 Imagem 1 -->
     <div class="modal fade" id="modalProj11Img1" tabindex="-1" aria-labelledby="modalProj11Img1Label" aria-hidden="true">
